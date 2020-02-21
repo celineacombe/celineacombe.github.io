@@ -1,0 +1,76 @@
+DÉBUT CONTAINER (id="container")
+
+        Début Container "photo + titre" (div="row")
+            Début Section "photo + titre" (id="photo-titre")
+                Début bloc "Photo"
+                    lien photo
+                Fin bloc "photo"
+                Début bloc "titre + métier" (id="titre-métier")
+                    Nom Prénom (id="titre-nom")
+                    Métier (id="métier")
+                Fin bloc "titre + métier"
+            Fin Section "photo + titre"
+        Fin Container "photo + titre"
+        
+        Début Container "infos perso" (div class="row"
+            Début Section "infos perso" (id="infos perso")
+                début bloc contact (id="contact")
+                    en-tête (header)
+                    Début bloc coordonnées (class="contact")
+                        adresse
+                        téléphone
+                        mail
+                        skype
+                    Fin bloc coordonnées (class="contact")
+                fin bloc contact
+                début bloc à propos (id="apropos")
+                    en-tête (header)
+                    Début bloc résumé (paragraphe?)
+                        Layus
+                    Fin bloc résumé (paragraphe?)
+                fin bloc à propos
+                début bloc loisirs (id="loisirs")
+                    en-tête (header)
+                    début bloc icones (paragraphe?)
+                        icones de loisirs
+                    fin bloc icones
+                fin bloc loisirs
+            Fin Section "infos perso" (id="infos perso")
+        
+            Début Section "Parcours" (id="parcours")
+                début bloc Formation
+                    en-tête
+                    début liste des formations
+                        date + ville
+                        Institut + description
+                        date + ville
+                        Institut + description
+                    fin liste des formations
+                fin bloc formation
+        
+                début bloc Exp pro
+                    en-tête
+                    début liste des exp pro
+                        date + ville
+                        Institut + description
+                        date + ville
+                        Institut + description
+                    fin liste des exp pro
+                fin bloc Exp pro
+        
+                début bloc recommandations
+                    début bloc 1 recommandations
+                        titre recommandations
+                        fonction
+                        téléphone
+                        email
+                    fin bloc 1 recommandations
+                    début bloc 2 recommandations
+                        titre recommandations
+                        fonction
+                        téléphone
+                        email
+                    fin bloc 2 recommandations
+                fin bloc recommandations
+        
+        FIN CONTAINER
