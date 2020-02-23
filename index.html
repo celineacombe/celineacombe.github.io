@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./fontawesome-free-5.12.1-web/css/all.css" />
     <title>Céline Combe</title>
     <style>
         .toto {
@@ -16,18 +17,17 @@
     <!-- Début Container de la page -->
     <div id="container">
         <!-- Début Conteneur "Photo + Titre" -->
-        <div class="row">
+        <div>
             <!-- Début section "photo + titre" -->
             <section id="phototitre" class="toto">
                 <!-- Début bloc "photo" -->
-                <div id="photo" class="toto">
+                <div id="photo" class="fondcouleur toto">
                     <img src="./images/photocv.jpg" class="photoidentité" alt="photoidentité">
                 </div><!-- Fin bloc "photo" -->
                 <!-- Début bloc "titre" -->
                 <div id="titremétier" class="toto">
-                    <h2 id="titre">Céline Combe</h2>
+                    <h2 id="titre"><span class="couleurprincipale">Céline</span> Combe</h2>
                     <p id="métier">Développeuse web freelance</p>
-
                 </div><!-- Fin bloc "titre" -->
 
 
@@ -36,51 +36,44 @@
         </div><!-- Fin Conteneur "Photo + Titre" -->
 
         <!-- Début Conteneur Infos Perso + Parcours -->
-        <div id="persoparcours" class="row">
+        <div id="persoparcours">
             <!--Début Section "Infos Perso"-->
-            <section id="infosperso" class="toto">
+            <section id="infosperso" class="toto fondcouleur">
                 <!-- Début bloc Contacts -->
                 <div id="contact">
-                    <h3>Contacts</h3>
+                    <h3 class="couleurprincipale titreinfosperso">Contacts</h3>
                     <!-- Début bloc Coordonnées-->
                     <div class="contact">
                         <h4>Adresse</h4>
-                        <p>
-                            Châtillon, France
-                        </p>
+                        <p>Châtillon, France</p>
                         <h4>Téléphone</h4>
-                        <p>
-                            06 00 00 00 00
-                        </p>
+                        <p>06 00 00 00 00</p>
                         <h4>Email</h4>
-                        <p>
-                            celine.a.combe@gmail.com
-                        </p>
+                        <p>celine.a.combe@gmail.com</p>
                         <h4>Skype</h4>
-                        <p>
-                            Ptitkrob
-                        </p>
+                        <p>Ptitkrob</p>
                     </div><!-- Fin bloc Coordonnées -->
                 </div><!-- Fin bloc Contacts-->
 
                 <!-- Début bloc à propos -->
                 <div id="apropos">
-                    <h3>À propos</h3>
+                    <h3 class="couleurprincipale titreinfosperso">À propos</h3>
                     <!-- Début bloc layus à propos -->
                     <div>
-                        Après avoir travaillé une dizaine d'années en tant qu'assistante d'exploitation,
-                        j'ai décidé de faire une reconverson professionnelle en tant que développeuse web.
+                        Après une dizaine d'années passée en tant qu'assistante d'exploitation,
+                        j'ai décidé de faire une reconverson professionnelle dans le domaine du numérique et de
+                        devenirdéveloppeuse web.
                     </div><!-- Fin bloc layus à propos -->
                 </div><!-- Fin bloc à propos -->
 
                 <!-- Début bloc Loisirs -->
                 <div id="loisirs">
-                    <h3>Loisirs</h3>
+                    <h3 class="couleurprincipale titreinfosperso">Loisirs</h3>
                     <!-- Début bloc icones -->
                     <div>
-                        <!-- <i class="fas fa-book"></i> -->
-                        <!-- <i class="fas fa-book"></i> -->
-                        <!-- <i class="fas fa-book"></i> -->
+                        <i class="fas fa-book cercle"></i>
+                        <i class="fas fa-book cercle"></i>
+                        <i class="fas fa-book cercle"></i>
                     </div><!-- fin bloc icones -->
                 </div><!-- Fin bloc Loisirs -->
             </section><!-- Fin Section "INfos Perso" -->
@@ -91,8 +84,8 @@
 
                     <!-- Début bloc formations -->
                     <div id="formation">
-                        <h3>
-                            <!-- <i class="fas fa-graduation-cap"></i> -->
+                        <h3 class="titreparcours">
+                            <span class="couleurprincipale"> <i class="fas fa-graduation-cap"></i> </span>
                             Formations
                         </h3>
                         <!-- Début bloc liste formations-->
@@ -103,12 +96,30 @@
                                     <div class="itemformation">
                                         <!-- bloc date+ville+puce-->
                                         <div>
-                                            <p>date<br /> + ville</p>
+                                            <p>01-2020 - 07-2020<br /> Châtillon</p>
                                         </div><!-- fin bloc date+ville+puce -->
                                         <!-- début bloc institut+description -->
                                         <div>
-                                            <p>Institut</p>
-                                            <p>description</p>
+                                            <p class="entité">OpenClassrooms</p>
+                                            <p>Développeur web</p>
+                                            <p>- découper, assembler et intégrer tous les éléments d’une maquette
+                                                graphique en HTML5 et CSS ;<br />
+                                                - ajouter du contenu audio et vidéo en HTML5 ;<br />
+                                                - animer les pages web avec CSS3 ;<br />
+                                                - appliquer les standards du web et les normes en vigueur ;<br />
+                                                - construire un site web fluide s’adaptant à tout type d’écran (web,
+                                                smartphone et tablette) ;<br />
+                                                - améliorer le référencement naturel en utilisant les balises selon leur
+                                                sémantique ;<br />
+                                                - faire réagir la page web en fonction des actions de l’utilisateur en
+                                                JavaScript ;<br />
+                                                - se connecter à un service web pour exploiter des données tierces (API)
+                                                ;<br />
+                                                - gérer les comptes utilisateurs ;<br />
+                                                - concevoir un site maintenable grâce à la gestion des erreurs et
+                                                exceptions ;<br />
+                                                - créer, gérer et afficher le contenu d’une base de données.
+                                            </p>
                                         </div><!-- fin bloc institut+description -->
                                     </div>
                                 </li><!-- fin 1er puce formation -->
@@ -118,12 +129,42 @@
                                     <div class="itemformation">
                                         <!-- bloc date+ville+puce-->
                                         <div>
-                                            <p>date<br /> + ville</p>
+                                            <p>09-1994 - 06-1996<br /> Montereau-Fault-Yonne</p>
                                         </div><!-- fin bloc date+ville+puce -->
                                         <!-- début bloc institut+description -->
                                         <div>
-                                            <p>Institut</p>
-                                            <p>description</p>
+                                            <p class="entité">Lycée Flora Tristan</p>
+                                            <p>BTS Comptabilité et Gestion</p>
+                                            <div>
+                                                <ul>
+                                                    <li>organise et réalise la gestion des obligations comptables,
+                                                        fiscales et
+                                                        sociales ;</li>
+                                                    <li>contrôle et valide les comptes, participe à l'élaboration et à
+                                                        la
+                                                        communication des informations financières et fiscales ; </li>
+                                                    <li>contribue aux prévisions et à la préparation des décisions ;
+                                                    </li>
+                                                    <li>
+                                                        intervient dans la conception, l'exploitation et l'évolution du
+                                                        système d'information de gestion de l'entreprise, dans le cadre
+                                                        des
+                                                        solutions technologiques adoptées ;
+                                                    </li>
+                                                    <li>
+                                                        exerce ses activités en tant que prestataire de services pour
+                                                        des
+                                                        clients, partenaires internes ou externes ;
+                                                    </li>
+                                                    <li>
+                                                        agit dans des contextes de travail variés et évolutifs,
+                                                        dépendant
+                                                        à
+                                                        la fois de la structure juridique, de la taille, des choix
+                                                        organisationnels et technologiques des entreprises.
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div><!-- fin bloc institut+description -->
                                     </div>
                                 </li><!-- fin 2eme puce formation -->
@@ -133,8 +174,8 @@
 
                     <!-- Début bloc expériences professionnelles -->
                     <div id="expepro">
-                        <h3>
-                            <!-- <i class="fas fa-briefcase"></i> -->
+                        <h3 class="titreparcours">
+                            <span class="couleurprincipale"><i class="fas fa-briefcase"></i> </span>
                             Expériences professionnelles
                         </h3>
                         <!-- début bloc liste expe pro -->
@@ -151,8 +192,14 @@
                                         <!-- début bloc institut+description -->
                                         <div>
                                             <!-- fin itemexpepro -->
-                                            <p>Institut</p>
-                                            <p>description</p>
+                                            <p class="entité">Institut</p>
+                                            <p>Poste</p>
+                                            <div>description
+                                                <ul>
+                                                    <li></li>
+                                                    <li></li>
+                                                </ul>
+                                            </div>
                                         </div><!-- fin bloc institut+description -->
                                     </div>
                                 </li><!-- fin 1er puce expepro -->
@@ -162,13 +209,19 @@
                                     <div class="itemexpepro">
                                         <!-- bloc date+ville+puce-->
                                         <div>
-                                            <p>date<br /> + ville</p>
+                                            <p>09-2010 - 08-2015<br /> Fontenay-aux-Roses</p>
                                         </div><!-- fin bloc date+ville+puce -->
                                         <!-- début bloc institut+description -->
                                         <div>
                                             <!-- fin itemexpepro -->
-                                            <p>Institut</p>
-                                            <p>description</p>
+                                            <p class="entité">TFN Propreté IDF</p>
+                                            <p>Assistante Administrative</p>
+                                            <div>
+                                                <ul>
+                                                    <li></li>
+                                                    <li></li>
+                                                </ul>
+                                            </div>
                                         </div><!-- fin bloc institut+description -->
                                     </div>
                                 </li><!-- fin 2ème puce expepro -->
@@ -178,25 +231,25 @@
 
                     <!-- Début bloc recommandations -->
                     <div id="recommandations">
-                        <h3>
-                            <!-- <i class="fas fa-pencil-alt"></i> -->
+                        <h3 class="titreparcours">
+                            <span class="couleurprincipale"><i class="fas fa-pencil-alt"></i></span>
                             Recommandations
                         </h3>
                         <!-- début bloc list recommandations -->
                         <div class="recommandations">
                             <!-- début bloc item reco 1-->
                             <div class="itemrecommandations">
-                                <p class="titrerecommandation">nom</p>
-                                <p class="fonctionrecommandation">fonction</p>
-                                <p class="telephonerecommandation">Téléphone</p>
-                                <p class="emailrecommandation">email</p>
+                                <p class="titreparcours"> Prénom Nom</p>
+                                <p>fonction</p>
+                                <p>Téléphone</p>
+                                <p>email</p>
                             </div><!-- fin bloc item reco 1-->
                             <!-- début bloc item reco 2 -->
                             <div class="itemrecommandations">
-                                <p class="titrerecommandation">nom</p>
-                                <p class="fonctionrecommandation">fonction</p>
-                                <p class="telephonerecommandation">Téléphone</p>
-                                <p class="emailrecommandation">email</p>
+                                <p class="titreparcours">Prénom Nom</p>
+                                <p>fonction</p>
+                                <p>Téléphone</p>
+                                <p>email</p>
                             </div><!-- fin bloc item reco 2-->
                         </div><!-- fin bloc liste recommandations-->
                     </div><!-- Fin bloc recommandations-->

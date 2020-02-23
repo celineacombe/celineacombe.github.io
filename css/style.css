@@ -1,9 +1,23 @@
 #container {
-    display: flex;
-    flex-direction: column;
+    color: #616161;
 }
 
 #phototitre {
+    display: flex;
+    flex-direction: row;
+}
+
+.itemformation {
+    display: flex;
+    flex-direction: row;
+}
+
+.itemexpepro {
+    display: flex;
+    flex-direction: row;
+}
+
+.recommandations {
     display: flex;
     flex-direction: row;
 }
@@ -13,8 +27,64 @@
     flex-direction: row;
 }
 
+#titre {
+    text-transform: uppercase;
+    color: #000;
+}
+
+#photo {
+    width: 33vw;
+}
+
+#titremétier {
+    width: 67vw;
+}
+
+#infosperso {
+    width: 33vw;
+}
+
+#parcours {
+    width: 67vw;
+}
+
+#loisirs {
+    height: ;
+}
+
 .photoidentité {
     display: block;
     border-radius: 50%;
 }
 
+.couleurprincipale {
+    color: #CE93D8;
+}
+
+.titreinfosperso {
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #424242;
+}
+
+.fondcouleur {
+    background-color: #CE93D8;
+}
+
+.titreparcours {
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.cercle {
+    border: solid 1px #424242;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #424242;
+}
+
+.entité {
+    text-transform: uppercase;
+}
