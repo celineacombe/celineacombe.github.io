@@ -1,25 +1,17 @@
+/* Page */
+
 #container {
     color: #616161;
+    font-family: 'Helvetica', 'Arial', 'Roboto', sans-serif;
+    /* font-size: 20px; */
 }
 
-#phototitre {
-    display: flex;
-    flex-direction: row;
+.couleurprincipale {
+    color: #CE93D8;
 }
 
-.itemformation {
-    display: flex;
-    flex-direction: row;
-}
-
-.itemexpepro {
-    display: flex;
-    flex-direction: row;
-}
-
-.recommandations {
-    display: flex;
-    flex-direction: row;
+.fondcouleur {
+    background-color: #CE93D8;
 }
 
 #persoparcours {
@@ -27,38 +19,42 @@
     flex-direction: row;
 }
 
-#titre {
-    text-transform: uppercase;
-    color: #000;
+/* Section photo + titre */
+
+#phototitre {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
 }
 
 #photo {
-    width: 33vw;
-}
-
-#titremétier {
-    width: 67vw;
-}
-
-#infosperso {
-    width: 33vw;
-}
-
-#parcours {
-    width: 67vw;
-}
-
-#loisirs {
-    height: ;
+    width: 30%;
 }
 
 .photoidentité {
     display: block;
     border-radius: 50%;
+    border: solid 3px #6A1B9A;
+    margin: 2% auto 2% auto;
+
 }
 
-.couleurprincipale {
-    color: #CE93D8;
+#titre {
+    text-transform: uppercase;
+    color: #000;
+    /*font-size: 1em;*/
+}
+
+#titremétier {
+    width: 70%;
+}
+
+/* Partie gauche Infos perso */
+
+#infosperso {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
 }
 
 .titreinfosperso {
@@ -67,8 +63,36 @@
     background-color: #424242;
 }
 
-.fondcouleur {
-    background-color: #CE93D8;
+#apropos {
+    flex: 1;
+}
+
+#loisirs {
+    
+}
+
+.cercle {
+    border: solid 1px #424242;
+    border-radius: 50%;
+    padding: 5%;
+    color: #424242;
+    margin: auto;
+    font-size: 40px;
+}
+
+.iconeloisirs {
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 20% 2% 20%;
+    
+    /* flex-wrap: wrap;
+	margin-bottom: 5%; */
+}
+
+/* Partie droite Parcours */
+
+#parcours {
+    width: 70%;
 }
 
 .titreparcours {
@@ -76,15 +100,41 @@
     color: #000000;
 }
 
-.cercle {
-    border: solid 1px #424242;
-    border-radius: 50%;
-    padding: 5px;
-    margin-right: auto;
-    margin-left: auto;
-    color: #424242;
-}
-
 .entité {
     text-transform: uppercase;
+}
+
+.dateitem {
+    width: 30%;
+    text-align: center;
+}
+
+.etditem {
+    /*  Entité Titre Description */
+    width: 70%;
+}
+
+/* Formation */
+
+.itemformation {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Exp Pro */
+
+.itemexpepro {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Recommandations */
+
+.recommandations {
+    display: flex;
+    flex-direction: row;
+}
+
+.itemrecommandations {
+    width: 50%;
 }
