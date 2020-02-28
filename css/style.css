@@ -6,22 +6,22 @@
     /* font-size: 20px; */
 }
 
-.couleurprincipale {
+.couleurPrincipale {
     color: #CE93D8;
 }
 
-.fondcouleur {
+.fondCouleur {
     background-color: #CE93D8;
 }
 
-#persoparcours {
+#persoParcours {
     display: flex;
     flex-direction: row;
 }
 
 /* Section photo + titre */
 
-#phototitre {
+#photoTitre {
     display: flex;
     flex-direction: row;
     margin: auto;
@@ -31,7 +31,7 @@
     width: 30%;
 }
 
-.photoidentité {
+.photoIdentité {
     display: block;
     border-radius: 50%;
     border: solid 3px #6A1B9A;
@@ -45,25 +45,25 @@
     /*font-size: 1em;*/
 }
 
-#titremétier {
+#titreMétier {
     width: 70%;
 }
 
 /* Partie gauche Infos perso */
 
-#infosperso {
+#infosPerso {
     display: flex;
     flex-direction: column;
     width: 30%;
 }
 
-.titreinfosperso {
+.titreInfosPerso {
     text-transform: uppercase;
     text-align: center;
     background-color: #424242;
 }
 
-#apropos {
+#aPropos {
     flex: 1;
 }
 
@@ -80,7 +80,7 @@
     font-size: 40px;
 }
 
-.iconeloisirs {
+.iconeLoisirs {
     display: flex;
     justify-content: space-around;
     margin: 2% 20% 2% 20%;
@@ -95,7 +95,7 @@
     width: 70%;
 }
 
-.titreparcours {
+.titreParcours {
     text-transform: uppercase;
     color: #000000;
 }
@@ -104,26 +104,26 @@
     text-transform: uppercase;
 }
 
-.dateitem {
+.dateItem {
     width: 30%;
     text-align: center;
 }
 
-.etditem {
+.etdItem {
     /*  Entité Titre Description */
     width: 70%;
 }
 
 /* Formation */
 
-.itemformation {
+.itemFormation {
     display: flex;
     flex-direction: row;
 }
 
 /* Exp Pro */
 
-.itemexpepro {
+.itemExpePro {
     display: flex;
     flex-direction: row;
 }
@@ -135,6 +135,6 @@
     flex-direction: row;
 }
 
-.itemrecommandations {
+.itemRecommandations {
     width: 50%;
 }
