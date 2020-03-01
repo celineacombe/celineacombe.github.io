@@ -3,7 +3,6 @@
 #container {
     color: #616161;
     font-family: 'Helvetica', 'Arial', 'Roboto', sans-serif;
-    /* font-size: 20px; */
 }
 
 .couleurprincipale {
@@ -17,6 +16,12 @@
 #persoparcours {
     display: flex;
     flex-direction: row;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 /* Section photo + titre */
@@ -36,7 +41,6 @@
     border-radius: 50%;
     border: solid 3px #6A1B9A;
     margin: 2% auto 2% auto;
-
 }
 
 #titre {
@@ -67,9 +71,7 @@
     flex: 1;
 }
 
-#loisirs {
-    
-}
+#loisirs {}
 
 .cercle {
     border: solid 1px #424242;
@@ -84,7 +86,6 @@
     display: flex;
     justify-content: space-around;
     margin: 2% 20% 2% 20%;
-    
     /* flex-wrap: wrap;
 	margin-bottom: 5%; */
 }
@@ -104,9 +105,26 @@
     text-transform: uppercase;
 }
 
+.puce1 {
+    list-style: disc;
+    margin-top: 15px;
+    width: 10%;
+    text-align: right;
+    font-size: 10px;
+    }
+
+.puce2 {
+    list-style: disc;
+    margin-top: 15px;
+    width: 10%;
+    text-align: right;
+    font-size: 10px;
+}
+
 .dateitem {
-    width: 30%;
-    text-align: center;
+    width: 20%;
+    text-align: left;
+    padding-left: 2%;
 }
 
 .etditem {
@@ -119,6 +137,7 @@
 .itemformation {
     display: flex;
     flex-direction: row;
+    padding-top: 15px;
 }
 
 /* Exp Pro */
