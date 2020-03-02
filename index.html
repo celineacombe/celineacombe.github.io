@@ -5,9 +5,10 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./fontawesome-free-5.12.1-web/css/all.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
     <title>Céline Combe</title>
     <style>
-        .toto {
+        .encadrement {
             border: 1px solid red;
         }
     </style>
@@ -19,26 +20,23 @@
         <!-- Début Conteneur "Photo + Titre" -->
         <div>
             <!-- Début section "photo + titre" -->
-            <section id="photoTitre" class="toto">
+            <section id="photoTitre" class="encadrement">
                 <!-- Début bloc "photo" -->
-                <div id="photo" class="fondCouleur toto">
+                <div id="photo" class="fondCouleur encadrement">
                     <img src="./images/photocv.jpg" class="photoIdentité" alt="photoIdentité">
                 </div><!-- Fin bloc "photo" -->
                 <!-- Début bloc "titre" -->
-                <div id="titreMétier" class="toto">
-                    <h2 id="titre"><span class="couleurPrincipale">Céline</span> Combe</h2>
+                <div id="titreMétier" class="encadrement">
+                    <h2 id="titre"><span class="couleurPrincipale prénom">Céline</span> Combe</h2>
                     <p id="métier">Développeuse web freelance</p>
                 </div><!-- Fin bloc "titre" -->
-
-
-
             </section><!-- Fin section "photo + titre" -->
         </div><!-- Fin Conteneur "Photo + Titre" -->
 
         <!-- Début Conteneur Infos Perso + Parcours -->
         <div id="persoParcours">
             <!--Début Section "Infos Perso"-->
-            <section id="infosPerso" class="toto fondCouleur">
+            <section id="infosPerso" class="encadrement fondCouleur">
                 <!-- Début bloc Contacts -->
                 <div id="contact">
                     <h3 class="couleurPrincipale titreInfosPerso">Contacts</h3>
@@ -57,7 +55,7 @@
 
                 <!-- Début bloc à propos -->
                 <div id="aPropos">
-                    <h3 class="couleurPrincipale titreInfosperso">À propos</h3>
+                    <h3 class="couleurPrincipale titreInfosPerso">À propos de moi</h3>
                     <!-- Début bloc layus à propos -->
                     <div>
                         <p>Après une dizaine d'années passée en tant qu'assistante, j'ai décidé de faire une reconverson
@@ -67,7 +65,7 @@
 
                 <!-- Début bloc Loisirs -->
                 <div id="loisirs">
-                    <h3 class="couleurPrincipale titreInfosperso">Loisirs</h3>
+                    <h3 class="couleurPrincipale titreInfosPerso">Loisirs</h3>
                     <!-- Début bloc icones -->
                     <div class="iconeLoisirs">
                         <i class="fas fa-book cercle"></i>
@@ -78,14 +76,14 @@
             </section><!-- Fin Section "INfos Perso" -->
 
             <!-- Début Section Parcours -->
-            <section id="parcours" class="toto">
+            <section id="parcours" class="encadrement">
                 <div>
 
                     <!-- Début bloc formations -->
                     <div id="formation">
                         <h3 class="titreParcours">
                             <span class="couleurPrincipale"> <i class="fas fa-graduation-cap"></i> </span>
-                            Formations
+                            Formation
                         </h3>
                         <!-- Début bloc liste formations-->
                         <div>
@@ -96,7 +94,7 @@
 
                                         <!-- Ajouter un div avec à l'intérieur un div pour les puces et le div dateitem -->
                                         <div class="puce1">
-                                            <i class="far fa-dot-circle couleurprincipale"></i>
+                                            <i class="far fa-dot-circle couleurPrincipale"></i>
                                         </div>
                                         <!-- bloc date+ville+puce-->
                                         <div class="dateItem">
@@ -106,7 +104,7 @@
                                         <div class="etdItem">
                                             <p class="entité">OpenClassrooms</p>
                                             <p>Développeur web</p>
-                                            <ul>
+                                            <ul class="grey500">
                                                 <li>découper, assembler et intégrer tous les éléments d’une maquette
                                                     graphique en HTML5 et CSS ;</li>
                                                 <li>ajouter du contenu audio et vidéo en HTML5 ;</li>
@@ -136,7 +134,7 @@
                                 <li class="listeFormation">
                                     <div class="itemFormation">
                                         <div class="puce2">
-                                            <i class="fas fa-circle couleurprincipale"></i>
+                                            <i class="fas fa-circle couleurPrincipale"></i>
                                         </div>
                                         <!-- bloc date+ville+puce-->
                                         <div class="dateItem">
@@ -147,7 +145,7 @@
                                             <p class="entité">Lycée Flora Tristan</p>
                                             <p>BTS Comptabilité et Gestion</p>
 
-                                            <ul class="sansPuce">
+                                            <ul class="grey500">
                                                 <li>organiser et réaliser la gestion des obligations comptables,
                                                     fiscales et sociales ;
                                                 </li>
@@ -183,7 +181,7 @@
                     <div id="expePro">
                         <h3 class="titreParcours">
                             <span class="couleurPrincipale"><i class="fas fa-briefcase"></i> </span>
-                            Expériences professionnelles
+                            Expérience professionnelle
                         </h3>
                         <!-- début bloc liste expe pro -->
                         <div>
@@ -195,7 +193,7 @@
                                         <!-- bloc date+ville+puce-->
 
                                         <div class="puce1">
-                                            <i class="far fa-dot-circle couleurprincipale"></i>
+                                            <i class="far fa-dot-circle couleurPrincipale"></i>
                                         </div>
                                         <div class="dateItem">
 
@@ -207,7 +205,7 @@
                                             <p class="entité">TFN Propreté IDF</p>
                                             <p>Assistante Administrative</p>
                                             <div>
-                                                <ul class="sansPuce">
+                                                <ul class="grey500">
                                                     <li>préparer la présentation en vue de la réunion mensuelle avec le
                                                         client ;</li>
                                                     <li>rédiger le compte-rendu de la réunion mensuelle ;</li>
@@ -232,7 +230,7 @@
                                     <div class="itemExpePro">
                                         <!-- bloc date+ville+puce-->
                                         <div class="puce2">
-                                            <i class="fas fa-circle couleurprincipale"></i>
+                                            <i class="fas fa-circle couleurPrincipale"></i>
                                         </div>
                                         <div class="dateItem">
 
@@ -244,7 +242,7 @@
                                             <p class="entité">Onet Services</p>
                                             <p>Assistante Administrative</p>
                                             <div>
-                                                <ul class="sansPuce">
+                                                <ul class="grey500">
                                                     <li>préparer la présentation en vue de la réunion mensuelle avec le
                                                         client ;</li>
                                                     <li>rédiger le compte-rendu de la réunion mensuelle ;</li>
@@ -269,7 +267,7 @@
                                         <!-- bloc date+ville+puce-->
 
                                         <div class="puce2">
-                                            <i class="fas fa-circle couleurprincipale"></i>
+                                            <i class="fas fa-circle couleurPrincipale"></i>
                                         </div>
                                         <div class="dateItem">
 
@@ -282,7 +280,7 @@
                                             <p>Assistante de gestion - Responsable du bureau des badges pour la
                                                 restauration</p>
                                             <div>
-                                                <ul class="sansPuce">
+                                                <ul class="grey500">
                                                     <li>gérer les badges de restautation (création, modification,
                                                         remboursement) ;</li>
                                                     <li>assurer la liaison entre le client et la société de restauration
@@ -311,18 +309,18 @@
                         <!-- début bloc list recommandations -->
                         <div class="recommandations">
                             <!-- début bloc item reco 1-->
-                            <div class="itemRecommandations">
-                                <p class="titreParcours"> Prénom Nom</p>
+                            <div class="itemRecommandations medium">
+                                <p class="titreRecommandations"> Prénom Nom</p>
                                 <p>fonction</p>
                                 <p>Téléphone</p>
-                                <p>email</p>
+                                <p class="grey500">email</p>
                             </div><!-- fin bloc item reco 1-->
                             <!-- début bloc item reco 2 -->
-                            <div class="itemRecommandations">
-                                <p class="titreParcours">Prénom Nom</p>
+                            <div class="itemRecommandations medium">
+                                <p class="titreRecommandations">Prénom Nom</p>
                                 <p>fonction</p>
                                 <p>Téléphone</p>
-                                <p>email</p>
+                                <p class="grey500">email</p>
                             </div><!-- fin bloc item reco 2-->
                         </div><!-- fin bloc liste recommandations-->
                     </div><!-- Fin bloc recommandations-->

@@ -1,16 +1,9 @@
-/* Page */
+/* Page
+------------------------- */
 
 #container {
     color: #616161;
-    font-family: 'Helvetica', 'Arial', 'Roboto', sans-serif;
-}
-
-.couleurPrincipale {
-    color: #CE93D8;
-}
-
-.fondCouleur {
-    background-color: #CE93D8;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
 }
 
 #persoParcours {
@@ -24,7 +17,32 @@ ul {
     margin: 0px;
 }
 
-/* Section photo + titre */
+/* Couleurs */
+
+.grey500 {
+    color: #9e9e9e;
+}
+
+.fondCouleur {
+    background-color: #CE93D8;
+}
+
+.couleurPrincipale {
+    color: #CE93D8;
+}
+
+/* Font */
+
+html {
+    font-size: 90%;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+/* Section photo + titre 
+------------------------- */
 
 #photoTitre {
     display: flex;
@@ -46,25 +64,39 @@ ul {
 #titre {
     text-transform: uppercase;
     color: #000;
-    /*font-size: 1em;*/
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.prénom {
+    font-weight: 500;
 }
 
 #titreMétier {
     width: 70%;
+    background-color: #FAFAFA;
 }
 
-/* Partie gauche Infos perso */
+#métier {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+/* Partie gauche Infos perso
+------------------------- */
 
 #infosPerso {
     display: flex;
     flex-direction: column;
     width: 30%;
+    font-size: 1.2rem;
 }
 
 .titreInfosPerso {
     text-transform: uppercase;
     text-align: center;
     background-color: #424242;
+    font-size: 2rem;
 }
 
 #aPropos {
@@ -79,30 +111,36 @@ ul {
     padding: 5%;
     color: #424242;
     margin: auto;
-    font-size: 40px;
+    font-size: 4rem;
 }
 
 .iconeLoisirs {
     display: flex;
     justify-content: space-around;
     margin: 2% 20% 2% 20%;
-    /* flex-wrap: wrap;
-	margin-bottom: 5%; */
+    font-size: 4rem;
+    color: #424242;
 }
 
-/* Partie droite Parcours */
+/* Partie droite Parcours
+------------------------- */
 
 #parcours {
     width: 70%;
+    font-size: 1.2rem;
+    background-color: #FAFAFA;
 }
 
 .titreParcours {
     text-transform: uppercase;
     color: #000000;
+    font-size: 2rem;
 }
 
 .entité {
     text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
 .puce1 {
@@ -111,6 +149,7 @@ ul {
     width: 10%;
     text-align: right;
     font-size: 10px;
+    font-size: 1rem;
 }
 
 .puce2 {
@@ -119,6 +158,7 @@ ul {
     width: 10%;
     text-align: right;
     font-size: 10px;
+    font-size: 1rem;
 }
 
 .dateItem {
@@ -127,8 +167,9 @@ ul {
     padding-left: 2%;
 }
 
+/*  Entité Titre Description */
+
 .etdItem {
-    /*  Entité Titre Description */
     width: 70%;
 }
 
