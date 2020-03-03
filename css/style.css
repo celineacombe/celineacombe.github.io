@@ -1,5 +1,5 @@
-/* Page
-------------------------- */
+/* All Page
+-------------------------------------------------- */
 
 #container {
     color: #616161;
@@ -17,10 +17,15 @@ ul {
     margin: 0px;
 }
 
+ul.grey500>li {
+    padding-right: 10%;
+}
+
 /* Margin / Padding */
 
 .marTop {
     margin-top: 0;
+    padding-top: 0;
 }
 
 .padLR {
@@ -28,7 +33,7 @@ ul {
     padding-right: 6%;
 }
 
-/* Couleurs */
+/* Colors */
 
 .grey500 {
     color: #9e9e9e;
@@ -52,8 +57,8 @@ html {
     font-weight: 500;
 }
 
-/* Section photo + titre 
-------------------------- */
+/* Header photo + title 
+-------------------------------------------------- */
 
 #photoTitre {
     display: flex;
@@ -77,9 +82,8 @@ html {
     color: #000;
     font-size: 4rem;
     font-weight: 300;
-    padding-left: 6%;
+    padding-left: 8%;
     margin-bottom: 0;
-    
 }
 
 .prénom {
@@ -89,18 +93,24 @@ html {
 #titreMétier {
     width: 70%;
     background-color: #FAFAFA;
-    
 }
 
 #métier {
     font-size: 2rem;
     font-weight: 500;
-    padding-left: 6%;
+    padding-left: 8%;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
-/* Partie gauche Infos perso
-------------------------- */
+.lineJob {
+    margin-left: 8%;
+    border-top: solid 3px #CE93D8;
+    width: 5%;
+}
+
+/* Part left Personnal Informations
+-------------------------------------------------- */
 
 #infosPerso {
     display: flex;
@@ -116,11 +126,23 @@ html {
     font-size: 2rem;
 }
 
+/* Contacts */
+
+h4+p {
+    margin-top: 0;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+/* About me */
+
 #aPropos {
     flex: 1;
 }
 
-#loisirs {}
+/* Hobbies */
 
 .cercle {
     border: solid 1px #424242;
@@ -141,8 +163,10 @@ html {
     color: #424242;
 }
 
-/* Partie droite Parcours
-------------------------- */
+/* Part right course
+-------------------------------------------------- */
+
+/* For all part */
 
 #parcours {
     width: 70%;
@@ -154,11 +178,18 @@ html {
     text-transform: uppercase;
     color: #000000;
     font-size: 2rem;
+    padding-left: 9%;
+    padding-right: 6%;
+}
+
+.line {
+    border-bottom: solid #CE93D8 2px;
+    padding-top: 1%;
 }
 
 i[class*="couleurPrincipale"] {
     width: 10%;
-    text-align: right;
+    text-align: left;
 }
 
 .entité {
@@ -167,34 +198,31 @@ i[class*="couleurPrincipale"] {
     font-weight: 500;
 }
 
-.puce1 {
-    list-style: disc;
-    margin-top: 15px;
-    width: 10%;
-    text-align: right;
-    font-size: 10px;
-    font-size: 1rem;
-}
-
-.puce2 {
-    list-style: disc;
-    margin-top: 15px;
-    width: 10%;
-    text-align: right;
-    font-size: 10px;
-    font-size: 1rem;
-}
-
 .dateItem {
     width: 20%;
     text-align: left;
     padding-left: 2%;
 }
 
-/*  Entité Titre Description */
-
 .etdItem {
+    /*  Entity Title Description */
     width: 70%;
+}
+
+/* Bullet */
+
+.puce1 {
+    margin-top: 15px;
+    width: 10%;
+    text-align: right;
+    font-size: 1rem;
+}
+
+.puce2 {
+    margin-top: 15px;
+    width: 10%;
+    text-align: right;
+    font-size: 1rem;
 }
 
 /* Formation */
@@ -202,23 +230,28 @@ i[class*="couleurPrincipale"] {
 .itemFormation {
     display: flex;
     flex-direction: row;
-    padding-top: 15px;
+    padding-top: 1%;
+    padding-bottom: 3%;
 }
 
-/* Exp Pro */
+/* Professional Experience */
 
 .itemExpePro {
     display: flex;
     flex-direction: row;
+    padding-top: 1%;
+    padding-bottom: 3%;
 }
 
-/* Recommandations */
+/* Recommendations */
 
 .recommandations {
     display: flex;
     flex-direction: row;
+    padding-bottom: 3%;
 }
 
 .itemRecommandations {
     width: 50%;
+    padding-left: 3%;
 }
