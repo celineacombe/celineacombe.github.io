@@ -1,0 +1,205 @@
+/* Responsive
+-------------------------------------------------- */
+
+/****** BREAKPOINTS ******
+small = 576px;
+medium = 768px;
+large = 992px;
+x-large = 1200px;
+*************************/
+
+/* Large */
+
+@media only screen and (max-width: 992px) {
+    html {
+        font-size: 60%
+    }
+    #parcours {
+        display: flex;
+        flex-direction: column;
+        margin: initial;
+        padding: initial;
+        /* width: 70%; */
+    }
+    ul.grey500>li {
+        padding-right: 6%;
+    }
+    .dateItem {
+        /* display: flex;
+        flex-wrap: nowrap; */
+        text-decoration: solid;
+        width: 95%;
+        padding-left: 9%;
+        text-align: left;
+    }
+    .puceDate {
+        margin-bottom: 2%;
+    }
+    .etdItem {
+        padding-left: 9%;
+        width: 95%;
+    }
+    /* Formation */
+    .itemFormation {
+        display: flex;
+        flex-direction: column;
+        /* border-bottom: #CE93D8 solid 1px; */
+    }
+    /* Professional Experience */
+    .itemExpePro {
+        display: flex;
+        flex-direction: column;
+        padding-top: 1%;
+        padding-bottom: 3%;
+        /* border-bottom: #CE93D8 solid 1px; */
+    }
+}
+
+/* Small and medium */
+
+@media only screen and (max-width: 768px) {
+    /* For all page
+    -------------------------------------------------- */
+    html {
+        font-size: 60%
+    }
+    #container {
+        margin: auto;
+    }
+    .marTop {
+        margin-top: initial;
+        padding-top: initial;
+    }
+    .titreInfosPerso {
+        margin: 0;
+    }
+    /* Header
+    -------------------------------------------------- */
+    #photoTitre {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    #photo {
+        width: 100%;
+        background-color: #fafafa;
+    }
+    .photoIdentité {
+        border: solid 3px #CE93D8;
+    }
+    #titreMétier {
+        width: 100%;
+        background-color: #fafafa;
+        /* text-align: center; */
+    }
+    #titre {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .prénom {
+        color: #CE93D8;
+        font-weight: 300;
+    }
+    #métier {
+        margin-top: initial;
+        margin-bottom: initial;
+        text-align: center;
+        padding: 0% 0% 3% 0%;
+    }
+    .lineJob {
+        visibility: hidden;
+    }
+    /* Part left Personnal Informations
+-------------------------------------------------- */
+    /* Hobbies */
+    .iconeLoisirs {
+        height: max-content;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin: initial;
+    }
+    .cercle {
+        padding: 3%;
+        font-size: 3rem;
+    }
+    #persoParcours {
+        display: flex;
+        flex-direction: column;
+    }
+    #infosPerso {
+        width: 100%;
+    }
+    /* Part right course
+-------------------------------------------------- */
+    #parcours {
+        display: flex;
+        flex-direction: column;
+        margin: initial;
+        padding: initial;
+        width: 100%;
+    }
+    .titreParcours {
+        padding-top: 6%;
+        padding-left: 0;
+        padding-right: 0%;
+        font-size: 1.9rem;
+    }
+    .line {
+        padding: 1% 0 0 0;
+    }
+    ul.grey500>li {
+        padding: 0 6% 0 0;
+    }
+    .puce1, .puce2 {
+        visibility: hidden;
+        display: none;
+        /* width: 5%;
+        text-align: left; */
+    }
+    .dateItem {
+        /* width: 100%; */
+        padding-left: 6%;
+        text-align: left;
+    }
+    .puceDate {
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    div.dateItem p {
+        width: 100%;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .etdItem {
+        width: 95%;
+        padding-right: 6%;
+        padding-left: 6%;
+    }
+    /* Formation */
+    .itemFormation {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    /* Professional Experience */
+    .itemExpePro {
+        display: flex;
+        flex-direction: column;
+        padding-top: 1%;
+        padding-bottom: 3%;
+        border-bottom: #CE93D8 solid 1px;
+    }
+    /* Recommendations */
+    .recommandations {
+        display: flex;
+        flex-direction: column;
+        margin: initial;
+        padding: 0 0 3% 0;
+    }
+    .itemRecommandations {
+        width: 100%;
+        padding: 0;
+        padding: 0 6% 0 6%;
+    }
+}

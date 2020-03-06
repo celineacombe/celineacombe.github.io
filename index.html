@@ -2,11 +2,24 @@
 <html lang="fr">
 
 <head>
+
+    <!-- meta -->
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- style -->
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" media="screen" href="./css/media.css" />
+
+    <!-- Fontawesome -->
     <link rel="stylesheet" href="./fontawesome-free-5.12.1-web/css/all.css" />
+
+    <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+
+
     <title>Céline Combe</title>
+
     <!-- <style>
         .encadrement {
             border: 1px solid red;
@@ -17,23 +30,21 @@
 <body>
     <!-- Début Container de la page -->
     <div id="container">
-        <!-- Début Conteneur "Photo + Titre" -->
-        <div>
-            <!-- Début section "photo + titre" -->
-            <section id="photoTitre" class="encadrement">
-                <!-- Début bloc "photo" -->
-                <div id="photo" class="fondCouleur encadrement">
-                    <img src="./images/photocvmini.jpg" class="photoIdentité" alt="photoIdentité">
-                </div><!-- Fin bloc "photo" -->
-                <!-- Début bloc "titre" -->
-                <div id="titreMétier" class="encadrement">
+        <!-- Début header -->
+        <header id="photoTitre" class="encadrement">
+            <!-- Début bloc "photo" -->
+            <div id="photo" class="fondCouleur encadrement">
+                <img src="./images/photocvmini.jpg" class="photoIdentité" alt="photoIdentité">
+            </div><!-- Fin bloc "photo" -->
+            <!-- Début bloc "titre" -->
+            <div id="titreMétier" class="encadrement">
+                <!-- <div class="centre"> -->
                     <h2 id="titre"><span class="couleurPrincipale prénom">Céline</span> Combe</h2>
                     <p id="métier">Développeuse web freelance</p>
                     <div class="lineJob"></div>
-                </div><!-- Fin bloc "titre" -->
-            </section><!-- Fin section "photo + titre" -->
-        </div><!-- Fin Conteneur "Photo + Titre" -->
-
+                <!-- </div> -->
+            </div><!-- Fin bloc "titre" -->
+        </header><!-- Fin header -->
         <!-- Début Conteneur Infos Perso + Parcours -->
         <div id="persoParcours">
             <!--Début Section "Infos Perso"-->
@@ -79,260 +90,271 @@
 
             <!-- Début Section Parcours -->
             <section id="parcours" class="encadrement">
-                <div>
 
-                    <!-- Début bloc formations -->
-                    <div id="formation">
-                        <h3 class="titreParcours marTop">
+                <!-- Début bloc formations -->
+                <div id="formation">
+                    <div class="titreParcours marTop">
+                        <div class="row">
                             <i class="fas fa-graduation-cap couleurPrincipale"></i>
-                            Formation
-                            <div class="line"></div>
-                        </h3>
-                        <!-- Début bloc liste formations-->
-                        <div>
-                            <!-- Début liste formations-->
-                            <ul>
-                                <li class="listeFormation">
-                                    <div class="itemFormation">
+                            <h3>Formation</h3>
+                        </div>
+                        <div class="line"></div>
+                    </div>
+                    <!-- Début bloc liste formations-->
+                    <div>
+                        <!-- Début liste formations-->
+                        <ul>
+                            <li class="listeFormation">
+                                <div class="itemFormation">
 
-                                        <!-- Ajouter un div avec à l'intérieur un div pour les puces et le div dateitem -->
+                                    <!-- Ajouter un div avec à l'intérieur un div pour les puces et le div dateitem -->
+                                    <div class="row puceDate">
+                                        <!-- Début bloc puce + date -->
                                         <div class="puce1">
                                             <i class="far fa-dot-circle couleurPrincipale"></i>
                                         </div>
                                         <!-- bloc date+ville+puce-->
                                         <div class="dateItem">
-                                            <p>01-2020 - 07-2020<br /> Châtillon</p><!-- enlever le p ? -->
+                                            <p>Janvier 2020 - Juillet 2020</p>
+                                            <p>Châtillon</p>
+                                            <!-- enlever le p ? -->
                                         </div><!-- fin bloc date+ville+puce -->
-                                        <!-- début bloc institut+description -->
-                                        <div class="etdItem">
-                                            <p class="entité">OpenClassrooms</p>
-                                            <p>Développeur web</p>
-                                            <ul class="grey500">
-                                                <li>découper, assembler et intégrer tous les éléments d’une maquette
-                                                    graphique en HTML5 et CSS ;</li>
-                                                <li>ajouter du contenu audio et vidéo en HTML5 ;</li>
-                                                <li>animer les pages web avec CSS3 ;</li>
-                                                <li>appliquer les standards du web et les normes en vigueur ;</li>
-                                                <li>construire un site web fluide s’adaptant à tout type d’écran (web,
-                                                    smartphone et tablette) ;</li>
-                                                <li>améliorer le référencement naturel en utilisant les balises selon
-                                                    leur
-                                                    sémantique ;</li>
-                                                <li>faire réagir la page web en fonction des actions de l’utilisateur en
-                                                    JavaScript ;</li>
-                                                <li>se connecter à un service web pour exploiter des données tierces
-                                                    (API)
-                                                    ;</li>
-                                                <li>gérer les comptes utilisateurs ;</li>
-                                                <li>concevoir un site maintenable grâce à la gestion des erreurs et
-                                                    exceptions ;</li>
-                                                <li>créer, gérer et afficher le contenu d’une base de données.</li>
-                                            </ul>
+                                    </div><!-- End bloc puce + date-->
+                                    <!-- début bloc institut+description -->
+                                    <div class="etdItem">
+                                        <p class="entité">OpenClassrooms</p>
+                                        <p>Développeur web</p>
+                                        <ul class="grey500">
+                                            <li>découper, assembler et intégrer tous les éléments d’une maquette
+                                                graphique en HTML5 et CSS ;</li>
+                                            <li>ajouter du contenu audio et vidéo en HTML5 ;</li>
+                                            <li>animer les pages web avec CSS3 ;</li>
+                                            <li>appliquer les standards du web et les normes en vigueur ;</li>
+                                            <li>construire un site web fluide s’adaptant à tout type d’écran (web,
+                                                smartphone et tablette) ;</li>
+                                            <li>améliorer le référencement naturel en utilisant les balises selon leur
+                                                sémantique ;</li>
+                                            <li>faire réagir la page web en fonction des actions de l’utilisateur en
+                                                JavaScript ;</li>
+                                            <li>se connecter à un service web pour exploiter des données tierces (API) ;
+                                            </li>
+                                            <li>gérer les comptes utilisateurs ;</li>
+                                            <li>concevoir un site maintenable grâce à la gestion des erreurs et
+                                                exceptions ;</li>
+                                            <li>créer, gérer et afficher le contenu d’une base de données.</li>
+                                        </ul>
 
-                                        </div><!-- fin bloc institut+description -->
-                                    </div>
-                                </li><!-- fin 1er puce formation -->
+                                    </div><!-- fin bloc institut+description -->
+                                </div>
+                            </li><!-- fin 1er puce formation -->
 
-                                <!-- debut 2ème puce formation-->
-                                <li class="listeFormation">
-                                    <div class="itemFormation">
+                            <!-- debut 2ème puce formation-->
+                            <li class="listeFormation">
+                                <div class="itemFormation">
+                                    <div class="row puceDate">
                                         <div class="puce2">
                                             <i class="fas fa-circle couleurPrincipale"></i>
                                         </div>
                                         <!-- bloc date+ville+puce-->
                                         <div class="dateItem">
-                                            <p>09-1994 - 06-1996<br /> Montereau-Fault-Yonne</p>
+                                            <p>Septembre 1994 - juin 1996<br /> Montereau-Fault-Yonne</p>
                                         </div><!-- fin bloc date+ville+puce -->
-                                        <!-- début bloc institut+description -->
-                                        <div class="etdItem">
-                                            <p class="entité">Lycée Flora Tristan</p>
-                                            <p>BTS Comptabilité et Gestion</p>
-
-                                            <ul class="grey500">
-                                                <li>organiser et réaliser la gestion des obligations comptables,
-                                                    fiscales et sociales ;
-                                                </li>
-                                                <li>contrôler et valider les comptes, participer à l'élaboration et
-                                                    à la communication des informations financières et fiscales ;
-                                                </li>
-                                                <li>contribuer aux prévisions et à la préparation des décisions ;
-                                                </li>
-                                                <li>
-                                                    intervenir dans la conception, l'exploitation et l'évolution du
-                                                    système d'information de gestion de l'entreprise, dans le cadre
-                                                    des solutions technologiques adoptées ;
-                                                </li>
-                                                <li>
-                                                    exercer ses activités en tant que prestataire de services pour
-                                                    des clients, partenaires internes ou externes ;
-                                                </li>
-                                                <li>
-                                                    agir dans des contextes de travail variés et évolutifs,
-                                                    dépendant à la fois de la structure juridique, de la taille, des
-                                                    choix organisationnels et technologiques des entreprises.
-                                                </li>
-                                            </ul>
-
-                                        </div><!-- fin bloc institut+description -->
                                     </div>
-                                </li><!-- fin 2eme puce formation -->
-                            </ul><!-- Fin liste formations -->
-                        </div><!-- Fin bloc liste formations-->
-                    </div><!-- Fin bloc formations-->
+                                    <!-- début bloc institut+description -->
+                                    <div class="etdItem">
+                                        <p class="entité">Lycée Flora Tristan</p>
+                                        <p>BTS Comptabilité et Gestion</p>
 
-                    <!-- Début bloc expériences professionnelles -->
-                    <div id="expePro">
-                        <h3 class="titreParcours">
-                            <i class="fas fa-briefcase couleurPrincipale"></i>
-                            Expérience professionnelle
-                            <div class="line"></div>
+                                        <ul class="grey500">
+                                            <li>organiser et réaliser la gestion des obligations comptables,
+                                                fiscales et sociales ;
+                                            </li>
+                                            <li>contrôler et valider les comptes, participer à l'élaboration et
+                                                à la communication des informations financières et fiscales ;
+                                            </li>
+                                            <li>contribuer aux prévisions et à la préparation des décisions ;
+                                            </li>
+                                            <li>
+                                                intervenir dans la conception, l'exploitation et l'évolution du
+                                                système d'information de gestion de l'entreprise, dans le cadre
+                                                des solutions technologiques adoptées ;
+                                            </li>
+                                            <li>
+                                                exercer ses activités en tant que prestataire de services pour
+                                                des clients, partenaires internes ou externes ;
+                                            </li>
+                                            <li>
+                                                agir dans des contextes de travail variés et évolutifs,
+                                                dépendant à la fois de la structure juridique, de la taille, des
+                                                choix organisationnels et technologiques des entreprises.
+                                            </li>
+                                        </ul>
 
-                        </h3>
-                        <!-- début bloc liste expe pro -->
-                        <div>
-                            <!-- début liste des expe pro -->
-                            <ul>
-                                <!-- debut 1er puce expepro-->
-                                <li class="listeExpePro">
-                                    <div class="itemExpePro">
-                                        <!-- bloc date+ville+puce-->
+                                    </div><!-- fin bloc institut+description -->
+                                </div>
+                            </li><!-- fin 2eme puce formation -->
+                        </ul><!-- Fin liste formations -->
+                    </div><!-- Fin bloc liste formations-->
+                </div><!-- Fin bloc formations-->
 
+                <!-- Début bloc expériences professionnelles -->
+                <div id="expePro">
+                    <div class="titreParcours">
+                        <div class="row">
+                            <i class=" fas fa-briefcase couleurPrincipale"></i>
+                            <h3>Expérience professionnelle</h3>
+                        </div>
+                        <div class="line"></div>
+                    </div>
+                    <!-- début bloc liste expe pro -->
+                    <div>
+                        <!-- début liste des expe pro -->
+                        <ul>
+                            <!-- debut 1er puce expepro-->
+                            <li class="listeExpePro">
+                                <div class="itemExpePro">
+                                    <!-- bloc date+ville+puce-->
+                                    <div class="row puceDate">
                                         <div class="puce1">
                                             <i class="far fa-dot-circle couleurPrincipale"></i>
                                         </div>
                                         <div class="dateItem">
 
-                                            <p>09-2010 - 08-2015<br /> Fontenay-aux-Roses</p>
+                                            <p>Septembre 2010 - août 2015<br /> Fontenay-aux-Roses</p>
                                         </div><!-- fin bloc date+ville+puce -->
-                                        <!-- début bloc institut+description -->
-                                        <div class="etdItem">
-                                            <!-- fin itemexpepro -->
-                                            <p class="entité">TFN Propreté IDF</p>
-                                            <p>Assistante Administrative</p>
-                                            <div>
-                                                <ul class="grey500">
-                                                    <li>préparer la présentation en vue de la réunion mensuelle avec le
-                                                        client ;</li>
-                                                    <li>rédiger le compte-rendu de la réunion mensuelle ;</li>
-                                                    <li>établir les demandes de laissez-passer annuels pour le personnel
-                                                        ;
-                                                    </li>
-                                                    <li>suivre les demandes d'évacuation de déchets ;</li>
-                                                    <li>réaliser les bilans mensuels et annuels du secteur déchets ;
-                                                    </li>
-                                                    <li>gérer le planning de 3 salles de réunion ;</li>
-                                                    <li>vérifier les bons de manutention et les enregistrer ;</li>
-                                                    <li>établir les factures pro forma des secteurs déchets, manutention
-                                                        et gestion des salles de réunion.</li>
-                                                </ul>
-                                            </div>
-                                        </div><!-- fin bloc institut+description -->
                                     </div>
-                                </li><!-- fin 1er puce expepro -->
+                                    <!-- début bloc institut+description -->
+                                    <div class="etdItem">
+                                        <!-- fin itemexpepro -->
+                                        <p class="entité">TFN Propreté IDF</p>
+                                        <p>Assistante Administrative</p>
+                                        <div>
+                                            <ul class="grey500">
+                                                <li>préparer la présentation en vue de la réunion mensuelle avec le
+                                                    client ;</li>
+                                                <li>rédiger le compte-rendu de la réunion mensuelle ;</li>
+                                                <li>établir les demandes de laissez-passer annuels pour le personnel
+                                                    ;
+                                                </li>
+                                                <li>suivre les demandes d'évacuation de déchets ;</li>
+                                                <li>réaliser les bilans mensuels et annuels du secteur déchets ;
+                                                </li>
+                                                <li>gérer le planning de 3 salles de réunion ;</li>
+                                                <li>vérifier les bons de manutention et les enregistrer ;</li>
+                                                <li>établir les factures pro forma des secteurs déchets, manutention
+                                                    et gestion des salles de réunion.</li>
+                                            </ul>
+                                        </div>
+                                    </div><!-- fin bloc institut+description -->
+                                </div>
+                            </li><!-- fin 1er puce expepro -->
 
-                                <!-- début 2éme puce expepro-->
-                                <li class="listeExpePro">
-                                    <div class="itemExpePro">
+                            <!-- début 2éme puce expepro-->
+                            <li class="listeExpePro">
+                                <div class="itemExpePro">
+                                    <div class="row puceDate">
                                         <!-- bloc date+ville+puce-->
                                         <div class="puce2">
                                             <i class="fas fa-circle couleurPrincipale"></i>
                                         </div>
                                         <div class="dateItem">
 
-                                            <p>09-2009 - 09-2010<br /> Fontenay-aux-Roses</p>
+                                            <p>Septembre 2009 - septembre 2010<br /> Fontenay-aux-Roses</p>
                                         </div><!-- fin bloc date+ville+puce -->
                                         <!-- début bloc institut+description -->
-                                        <div class="etdItem">
-                                            <!-- fin itemexpepro -->
-                                            <p class="entité">Onet Services</p>
-                                            <p>Assistante Administrative</p>
-                                            <div>
-                                                <ul class="grey500">
-                                                    <li>préparer la présentation en vue de la réunion mensuelle avec le
-                                                        client ;</li>
-                                                    <li>rédiger le compte-rendu de la réunion mensuelle ;</li>
-                                                    <li>établir les demandes de laissez-passer annuels pour le personnel
-                                                        ;
-                                                    </li>
-                                                    <li>suivre les demandes d'évacuation de déchets ;</li>
-                                                    <li>réaliser les bilans mensuels et annuels du secteur déchets ;
-                                                    </li>
-                                                    <li>gérer le planning de 3 salles de réunion ;</li>
-                                                    <li>vérifier les bons de manutention et les enregistrer ;</li>
-                                                    <li>établir les factures pro forma des secteurs déchets, manutention
-                                                        et gestion des salles de réunion.</li>
-                                                </ul>
-                                            </div>
-                                        </div><!-- fin bloc institut+description -->
                                     </div>
-                                </li><!-- fin 2ème puce expepro -->
-                                <!-- début 3éme puce expepro-->
-                                <li class="listeExpePro">
-                                    <div class="itemExpePro">
-                                        <!-- bloc date+ville+puce-->
-
+                                    <div class="etdItem">
+                                        <!-- fin itemexpepro -->
+                                        <p class="entité">Onet Services</p>
+                                        <p>Assistante Administrative</p>
+                                        <div>
+                                            <ul class="grey500">
+                                                <li>préparer la présentation en vue de la réunion mensuelle avec le
+                                                    client ;</li>
+                                                <li>rédiger le compte-rendu de la réunion mensuelle ;</li>
+                                                <li>établir les demandes de laissez-passer annuels pour le personnel
+                                                    ;
+                                                </li>
+                                                <li>suivre les demandes d'évacuation de déchets ;</li>
+                                                <li>réaliser les bilans mensuels et annuels du secteur déchets ;
+                                                </li>
+                                                <li>gérer le planning de 3 salles de réunion ;</li>
+                                                <li>vérifier les bons de manutention et les enregistrer ;</li>
+                                                <li>établir les factures pro forma des secteurs déchets, manutention
+                                                    et gestion des salles de réunion.</li>
+                                            </ul>
+                                        </div>
+                                    </div><!-- fin bloc institut+description -->
+                                </div>
+                            </li><!-- fin 2ème puce expepro -->
+                            <!-- début 3éme puce expepro-->
+                            <li class="listeExpePro">
+                                <div class="itemExpePro">
+                                    <!-- bloc date+ville+puce-->
+                                    <div class="row puceDate">
                                         <div class="puce2">
                                             <i class="fas fa-circle couleurPrincipale"></i>
                                         </div>
                                         <div class="dateItem">
 
-                                            <p>09-2005 - 08-2009<br /> Fontenay-aux-Roses</p>
+                                            <p>Septembre 2005 - août 2009<br /> Fontenay-aux-Roses</p>
                                         </div><!-- fin bloc date+ville+puce -->
                                         <!-- début bloc institut+description -->
-                                        <div class="etdItem">
-                                            <!-- fin itemexpepro -->
-                                            <p class="entité">Onet Services</p>
-                                            <p>Assistante de gestion - Responsable du bureau des badges pour la
-                                                restauration</p>
-                                            <div>
-                                                <ul class="grey500">
-                                                    <li>gérer les badges de restautation (création, modification,
-                                                        remboursement) ;</li>
-                                                    <li>assurer la liaison entre le client et la société de restauration
-                                                        ;
-                                                    </li>
-                                                    <li>vérifier les factures émises pour les repas d'affaires ;</li>
-                                                    <li>vérifier et saisir les états journaliers et mensuels ;</li>
-                                                    <li>établir les procès verbaux de facturation ;</li>
-                                                    <li>établir les tableaux de bord mensuels et annuels.</li>
-
-                                                </ul>
-                                            </div>
-                                        </div><!-- fin bloc institut+description -->
                                     </div>
-                                </li><!-- fin 3ème puce expepro -->
-                            </ul><!-- fin liste des expepro -->
-                        </div><!-- fin bloc liste exp pro-->
-                    </div><!-- Fin bloc expériences professionelles-->
+                                    <div class="etdItem">
+                                        <!-- fin itemexpepro -->
+                                        <p class="entité">Onet Services</p>
+                                        <p>Assistante de gestion - Responsable du bureau des badges pour la
+                                            restauration</p>
+                                        <div>
+                                            <ul class="grey500">
+                                                <li>gérer les badges de restautation (création, modification,
+                                                    remboursement) ;</li>
+                                                <li>assurer la liaison entre le client et la société de restauration
+                                                    ;
+                                                </li>
+                                                <li>vérifier les factures émises pour les repas d'affaires ;</li>
+                                                <li>vérifier et saisir les états journaliers et mensuels ;</li>
+                                                <li>établir les procès verbaux de facturation ;</li>
+                                                <li>établir les tableaux de bord mensuels et annuels.</li>
 
-                    <!-- Début bloc recommandations -->
-                    <div id="recommandations">
-                        <h3 class="titreParcours">
+                                            </ul>
+                                        </div>
+                                    </div><!-- fin bloc institut+description -->
+                                </div>
+                            </li><!-- fin 3ème puce expepro -->
+                        </ul><!-- fin liste des expepro -->
+                    </div><!-- fin bloc liste exp pro-->
+                </div><!-- Fin bloc expériences professionelles-->
+
+                <!-- Début bloc recommandations -->
+                <div id="recommandations">
+                    <div class="titreParcours">
+                        <div class="row">
                             <i class="fas fa-pencil-alt couleurPrincipale"></i>
-                            Recommandations
-                            <div class="line"></div>
+                            <h3>Recommandations</h3>
+                        </div>
+                        <div class="line"></div>
+                    </div>
+                    <!-- début bloc list recommandations -->
+                    <div class="recommandations padLR">
+                        <!-- début bloc item reco 1-->
+                        <div class="itemRecommandations medium">
+                            <p class="titreRecommandations"> Maxime Bono</p>
+                            <p>Gérant, Bono Consulting</p>
+                            <p>Téléphone : 06 00 00 00 00</p>
+                            <p class="grey500">Email : name@email.com</p>
+                        </div><!-- fin bloc item reco 1-->
+                        <!-- début bloc item reco 2 -->
+                        <div class="itemRecommandations medium">
+                            <p class="titreRecommandations">Philippe Alves</p>
+                            <p>DSI, Oalia</p>
+                            <p>Téléphone : 06 00 00 00 00</p>
+                            <p class="grey500">Email : name@email.com</p>
+                        </div><!-- fin bloc item reco 2-->
+                    </div><!-- fin bloc liste recommandations-->
+                </div><!-- Fin bloc recommandations-->
 
-                        </h3>
-                        <!-- début bloc list recommandations -->
-                        <div class="recommandations padLR">
-                            <!-- début bloc item reco 1-->
-                            <div class="itemRecommandations medium">
-                                <p class="titreRecommandations"> Prénom Nom</p>
-                                <p>fonction</p>
-                                <p>Téléphone</p>
-                                <p class="grey500">email</p>
-                            </div><!-- fin bloc item reco 1-->
-                            <!-- début bloc item reco 2 -->
-                            <div class="itemRecommandations medium">
-                                <p class="titreRecommandations">Prénom Nom</p>
-                                <p>fonction</p>
-                                <p>Téléphone</p>
-                                <p class="grey500">email</p>
-                            </div><!-- fin bloc item reco 2-->
-                        </div><!-- fin bloc liste recommandations-->
-                    </div><!-- Fin bloc recommandations-->
-
-                </div><!-- Fin row Section Parcours -->
             </section><!-- Fin Section Parcours-->
         </div><!-- Fin Conteneur Infos Perso + Parcours -->
 
