@@ -107,9 +107,6 @@ x-large = 1200px;
         text-align: center;
         padding: 0% 0% 3% 0%;
     }
-    .lineJob {
-        visibility: hidden;
-    }
     /* Part left Personnal Informations
 -------------------------------------------------- */
     /* Hobbies */
@@ -147,34 +144,44 @@ x-large = 1200px;
     }
     .line {
         padding: 1% 0 0 0;
+        margin-right: 0;
     }
     ul.grey500>li {
         padding: 0 6% 0 0;
     }
-    .puce1, .puce2 {
+    /* .puce1, .puce2 {
         visibility: hidden;
         display: none;
         /* width: 5%;
         text-align: left; */
-    }
     .dateItem {
         /* width: 100%; */
-        padding-left: 6%;
+        padding-left: 0;
         text-align: left;
+        /* width: 80%; */
+    }
+    .puce1, .puce2 {
+        text-align: left;
+        margin: auto;
     }
     .puceDate {
-        width: 100%;
+        width: 85%;
         margin-bottom: 2%;
+        padding-left: 6%
     }
     div.dateItem p {
         width: 100%;
         margin-bottom: 0;
-        margin-top: 0;
+        margin-top: 2%;
     }
     .etdItem {
         width: 95%;
         padding-right: 6%;
         padding-left: 6%;
+    }
+    div.etdItem p {
+        /* text-align: center; */
+        padding-right: 6%;
     }
     /* Formation */
     .itemFormation {
@@ -188,7 +195,6 @@ x-large = 1200px;
         flex-direction: column;
         padding-top: 1%;
         padding-bottom: 3%;
-        border-bottom: #CE93D8 solid 1px;
     }
     /* Recommendations */
     .recommandations {

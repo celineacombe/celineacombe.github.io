@@ -84,8 +84,9 @@ html {
     color: #000;
     font-size: 4rem;
     font-weight: 300;
-    padding-left: 8%;
+    padding-left: 6%;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 .prénom {
@@ -102,15 +103,13 @@ html {
 #métier {
     font-size: 2rem;
     font-weight: 500;
-    padding-left: 8%;
+    padding-left: 6%;
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.lineJob {
-    margin-left: 8%;
-    border-top: solid 3px #CE93D8;
-    width: 45px;
+.s-line {
+    border-bottom: solid 2px #CE93D8;
 }
 
 /* Part left Personnal Informations
@@ -183,7 +182,7 @@ h4 {
     color: #000000;
     font-size: 2rem;
     font-weight: 700;
-    padding-left: 9%;
+    padding-left: 6%;
     padding-right: 6%;
     margin-bottom: 2%;
 }
@@ -218,7 +217,7 @@ div.dateItem p {
 
 .puceDate {
     width: 35%;
-    padding-left: 9%;
+    padding-left: 6%;
 }
 
 .dateItem {
@@ -235,19 +234,14 @@ div.dateItem p {
 
 /* Bullet */
 
-.puce1 {
+.puce1, .puce2 {
     margin-top: 1%;
     width: 10%;
-    text-align: center;
+    text-align: left;
     font-size: 1rem;
 }
 
-.puce2 {
-    margin-top: 1%;
-    width: 10%;
-    text-align: center;
-    font-size: 1rem;
-}
+
 
 /* Formation */
 
