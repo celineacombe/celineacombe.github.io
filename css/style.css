@@ -6,7 +6,7 @@
     font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
 }
 
-#persoParcours {
+#persoCourse {
     display: flex;
     flex-direction: row;
 }
@@ -39,11 +39,11 @@ ul.grey500>li {
     color: #9e9e9e;
 }
 
-.fondCouleur {
+.backgroundColor {
     background-color: #CE93D8;
 }
 
-.couleurPrincipale {
+.mainColor {
     color: #CE93D8;
 }
 
@@ -61,17 +61,17 @@ html {
 /* Header picture + title 
 -------------------------------------------------- */
 
-#photoTitre {
+#pictureTitle {
     display: flex;
     flex-direction: row;
     margin: auto;
 }
 
-#photo {
+#picture {
     width: 30%;
 }
 
-.photoIdentité {
+.myPicture {
     display: block;
     border-radius: 50%;
     border: solid 3px #6A1B9A;
@@ -79,7 +79,7 @@ html {
     max-width: 80%;
 }
 
-#titre {
+#title {
     text-transform: uppercase;
     color: #000;
     font-size: 4rem;
@@ -89,18 +89,18 @@ html {
     margin-top: 0;
 }
 
-.prénom {
+.firstName {
     font-weight: 500;
 }
 
-#titreMétier {
+#titleJob {
     width: 70%;
     background-color: #FAFAFA;
     display: block;
     margin: auto;
 }
 
-#métier {
+#job {
     font-size: 2rem;
     font-weight: 500;
     padding-left: 6%;
@@ -122,7 +122,7 @@ html {
     font-size: 1.2rem;
 }
 
-.titreInfosPerso {
+.titleInfosPerso {
     text-transform: uppercase;
     text-align: center;
     background-color: #424242;
@@ -141,7 +141,7 @@ h4 {
 
 /* About me */
 
-#aPropos {
+#about {
     flex: 1;
 }
 
@@ -156,7 +156,7 @@ h4 {
     font-size: 3rem;
 }
 
-.iconeLoisirs {
+.iconHobbies {
     display: flex;
     justify-content: space-around;
     margin: auto;
@@ -169,15 +169,15 @@ h4 {
 /* Part right course
 -------------------------------------------------- */
 
-/* For all part */
+/* For all part course */
 
-#parcours {
+#course {
     width: 70%;
     font-size: 1.2rem;
     background-color: #FAFAFA;
 }
 
-.titreParcours {
+.titleCourse {
     text-transform: uppercase;
     color: #000000;
     font-size: 2rem;
@@ -197,7 +197,7 @@ h4 {
     margin-top: -2%;
 }
 
-i[class*="couleurPrincipale"] {
+i[class*="mainColor"] {
     width: 10%;
     text-align: left;
     align-self: center;
@@ -208,14 +208,14 @@ div.dateItem p {
     margin-top: 0;
 }
 
-.entité {
+.entity {
     text-transform: uppercase;
     font-size: 1.5rem;
     font-weight: 500;
     margin-top: 0%;
 }
 
-.puceDate {
+.bulletDate {
     width: 35%;
     padding-left: 6%;
 }
@@ -234,27 +234,16 @@ div.dateItem p {
 
 /* Bullet */
 
-.puce1, .puce2 {
+.bullet1, .bullet2 {
     margin-top: 1%;
     width: 10%;
     text-align: left;
     font-size: 1rem;
 }
 
+/* Education and Professional Experience */
 
-
-/* Formation */
-
-.itemFormation {
-    display: flex;
-    flex-direction: row;
-    padding-top: 1%;
-    padding-bottom: 3%;
-}
-
-/* Professional Experience */
-
-.itemExpePro {
+.itemEducation, .itemProExpe {
     display: flex;
     flex-direction: row;
     padding-top: 1%;
@@ -263,17 +252,23 @@ div.dateItem p {
 
 /* Recommendations */
 
-.recommandations {
+.recommendation {
     display: flex;
     flex-direction: row;
     padding-bottom: 3%;
 }
 
-.itemRecommandations {
+.itemRecommendations {
     width: 50%;
     padding-left: 3%;
 }
 
-.titreRecommandations {
+.titleRecommendations {
     text-transform: uppercase;
+}
+
+/* Fix display bug for iconhobbies in Chrome */
+
+.fas {
+    -webkit-font-smoothing: none;
 }

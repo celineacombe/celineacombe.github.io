@@ -21,38 +21,39 @@
     <title>Céline Combe</title>
 
     <!-- <style>
-        .encadrement {
+        .framing {
             border: 1px solid red;
         }
     </style> -->
 </head>
 
 <body>
-    <!-- Début Container de la page -->
+    <!-- Begin page container -->
     <div id="container">
-        <!-- Début header -->
-        <header id="photoTitre" class="encadrement">
-            <!-- Début bloc "photo" -->
-            <div id="photo" class="fondCouleur encadrement">
-                <img src="./images/photocvmini.jpg" class="photoIdentité" alt="photoIdentité">
-            </div><!-- Fin bloc "photo" -->
-            <!-- Début bloc "titre" -->
-            <div id="titreMétier" class="encadrement">
-                <!-- <div class="centre"> -->
-                    <h2 id="titre"><span class="couleurPrincipale prénom">Céline</span> Combe</h2>
-                    <p id="métier"><span class="s-line">Dével</span>oppeuse web freelance</p>
-                <!-- </div> -->
-            </div><!-- Fin bloc "titre" -->
-        </header><!-- Fin header -->
-        <!-- Début Conteneur Infos Perso + Parcours -->
-        <div id="persoParcours">
-            <!--Début Section "Infos Perso"-->
-            <section id="infosPerso" class="encadrement fondCouleur">
-                <!-- Début bloc Contacts -->
+
+        <!-- Begin header -->
+        <header id="pictureTitle" class="framing">
+
+            <div id="picture" class="backgroundColor framing">
+                <img src="./images/photocvmini.jpg" class="myPicture" alt="myPicture">
+            </div>
+
+            <div id="titleJob" class="framing">
+                <h2 id="title"><span class="mainColor firstName">Céline</span> Combe</h2>
+                <p id="job"><span class="s-line">Dével</span>oppeuse web freelance</p>
+            </div>
+        </header><!-- End header -->
+
+        <!-- Begin container Infos Perso + course -->
+        <div id="persoCourse">
+
+            <!--Begin Section "infos perso"-->
+            <section id="infosPerso" class="framing backgroundColor">
+
+                <!-- Begin contacts -->
                 <div id="contact">
-                    <h3 class="couleurPrincipale titreInfosPerso marTop">Contacts</h3>
-                    <!-- Début bloc Coordonnées-->
-                    <div class="contact padLR">
+                    <h3 class="mainColor titleInfosPerso marTop">Contacts</h3>
+                    <div class="padLR">
                         <h4>Adresse</h4>
                         <p>Châtillon, France</p>
                         <h4>Téléphone</h4>
@@ -61,67 +62,62 @@
                         <p>celine.a.combe@gmail.com</p>
                         <h4>Skype</h4>
                         <p>@nom_utilisateur</p>
-                    </div><!-- Fin bloc Coordonnées -->
-                </div><!-- Fin bloc Contacts-->
+                    </div>
+                </div><!-- End contacts-->
 
-                <!-- Début bloc à propos -->
-                <div id="aPropos">
-                    <h3 class="couleurPrincipale titreInfosPerso">À propos de moi</h3>
-                    <!-- Début bloc layus à propos -->
+                <!-- Begin about -->
+                <div id="about">
+                    <h3 class="mainColor titleInfosPerso">À propos de moi</h3>
                     <div>
                         <p class="padLR">Après une dizaine d'années passée en tant qu'assistante, j'ai décidé de faire
-                            une reconverson
+                            une reconversion
                             professionnelle dans le domaine du numérique pour devenir développeuse web.</p>
-                    </div><!-- Fin bloc layus à propos -->
-                </div><!-- Fin bloc à propos -->
+                    </div>
+                </div><!-- End about -->
 
-                <!-- Début bloc Loisirs -->
-                <div id="loisirs">
-                    <h3 class="couleurPrincipale titreInfosPerso">Loisirs</h3>
-                    <!-- Début bloc icones -->
-                    <div class="iconeLoisirs padLR">
+                <!-- Begin hobbies -->
+                <div>
+                    <h3 class="mainColor titleInfosPerso">Loisirs</h3>
+                    <div class="iconHobbies padLR">
                         <i class="fas fa-book cercle"></i>
                         <i class="fas fa-book cercle"></i>
                         <i class="fas fa-book cercle"></i>
-                    </div><!-- fin bloc icones -->
-                </div><!-- Fin bloc Loisirs -->
-            </section><!-- Fin Section "INfos Perso" -->
+                    </div>
+                </div><!-- End hobbies -->
 
-            <!-- Début Section Parcours -->
-            <section id="parcours" class="encadrement">
+            </section><!-- End Section "infos perso" -->
 
-                <!-- Début bloc formations -->
-                <div id="formation">
-                    <div class="titreParcours marTop">
+            <!-- Begin Section course -->
+            <section id="course" class="framing">
+
+                <!-- Begin education -->
+                <div>
+                    <div class="titleCourse marTop">
                         <div class="row">
-                            <i class="fas fa-graduation-cap couleurPrincipale"></i>
+                            <i class="fas fa-graduation-cap mainColor"></i>
                             <h3>Formation</h3>
                         </div>
                         <div class="line"></div>
                     </div>
-                    <!-- Début bloc liste formations-->
+                    <!-- Begin list education-->
                     <div>
-                        <!-- Début liste formations-->
                         <ul>
-                            <li class="listeFormation">
-                                <div class="itemFormation">
-
-                                    <!-- Ajouter un div avec à l'intérieur un div pour les puces et le div dateitem -->
-                                    <div class="row puceDate">
-                                        <!-- Début bloc puce + date -->
-                                        <div class="puce1">
-                                            <i class="far fa-dot-circle couleurPrincipale"></i>
+                            <!-- Begin 1st bullet education -->
+                            <li>
+                                <div class="itemEducation">
+                                    <!-- Begin 1st bulletDate -->
+                                    <div class="row bulletDate">
+                                        <div class="bullet1">
+                                            <i class="far fa-dot-circle mainColor"></i>
                                         </div>
-                                        <!-- bloc date+ville+puce-->
                                         <div class="dateItem">
                                             <p>Janvier 2020 - Juillet 2020</p>
                                             <p>Châtillon</p>
-                                            <!-- enlever le p ? -->
-                                        </div><!-- fin bloc date+ville+puce -->
-                                    </div><!-- End bloc puce + date-->
-                                    <!-- début bloc institut+description -->
+                                        </div>
+                                    </div><!-- End 1st bulletDate -->
+                                    <!-- Begin 1st entity + description -->
                                     <div class="etdItem">
-                                        <p class="entité">OpenClassrooms</p>
+                                        <p class="entity">OpenClassrooms</p>
                                         <p>Développeur web</p>
                                         <ul class="grey500">
                                             <li>découper, assembler et intégrer tous les éléments d’une maquette
@@ -142,26 +138,25 @@
                                                 exceptions ;</li>
                                             <li>créer, gérer et afficher le contenu d’une base de données.</li>
                                         </ul>
-
-                                    </div><!-- fin bloc institut+description -->
+                                    </div><!-- End 1st entity + description -->
                                 </div>
-                            </li><!-- fin 1er puce formation -->
+                            </li><!-- End 1st bullet education -->
 
-                            <!-- debut 2ème puce formation-->
-                            <li class="listeFormation">
-                                <div class="itemFormation">
-                                    <div class="row puceDate">
-                                        <div class="puce2">
-                                            <i class="fas fa-circle couleurPrincipale"></i>
+                            <!-- Begin 2nd bullet education -->
+                            <li>
+                                <div class="itemEducation">
+                                    <!-- Begin 2nd bulletDate-->
+                                    <div class="row bulletDate">
+                                        <div class="bullet2">
+                                            <i class="fas fa-circle mainColor"></i>
                                         </div>
-                                        <!-- bloc date+ville+puce-->
                                         <div class="dateItem">
                                             <p>Septembre 1994 - juin 1996<br /> Montereau-Fault-Yonne</p>
-                                        </div><!-- fin bloc date+ville+puce -->
-                                    </div>
-                                    <!-- début bloc institut+description -->
+                                        </div>
+                                    </div><!-- End 2nd bulletDate -->
+                                    <!-- Begin 2nd entity + description -->
                                     <div class="etdItem">
-                                        <p class="entité">Lycée Flora Tristan</p>
+                                        <p class="entity">Lycée Flora Tristan</p>
                                         <p>BTS Comptabilité et Gestion</p>
 
                                         <ul class="grey500">
@@ -188,44 +183,40 @@
                                                 choix organisationnels et technologiques des entreprises.
                                             </li>
                                         </ul>
-
-                                    </div><!-- fin bloc institut+description -->
+                                    </div><!-- End 2nd entity + description -->
                                 </div>
-                            </li><!-- fin 2eme puce formation -->
-                        </ul><!-- Fin liste formations -->
-                    </div><!-- Fin bloc liste formations-->
-                </div><!-- Fin bloc formations-->
+                            </li><!-- End 2nd bullet education -->
+                        </ul>
+                    </div><!-- End list education-->
+                </div><!-- End education-->
 
-                <!-- Début bloc expériences professionnelles -->
-                <div id="expePro">
-                    <div class="titreParcours">
+                <!-- Begin professionnal experience -->
+                <div>
+                    <div class="titleCourse">
                         <div class="row">
-                            <i class=" fas fa-briefcase couleurPrincipale"></i>
+                            <i class=" fas fa-briefcase mainColor"></i>
                             <h3>Expérience professionnelle</h3>
                         </div>
                         <div class="line"></div>
                     </div>
-                    <!-- début bloc liste expe pro -->
+                    <!-- Begin box list pro expe -->
                     <div>
-                        <!-- début liste des expe pro -->
                         <ul>
-                            <!-- debut 1er puce expepro-->
-                            <li class="listeExpePro">
-                                <div class="itemExpePro">
-                                    <!-- bloc date+ville+puce-->
-                                    <div class="row puceDate">
-                                        <div class="puce1">
-                                            <i class="far fa-dot-circle couleurPrincipale"></i>
+                            <!-- Begin 1st bullet proExpe-->
+                            <li>
+                                <div class="itemProExpe">
+                                    <!-- Begin 1st bulletDate-->
+                                    <div class="row bulletDate">
+                                        <div class="bullet1">
+                                            <i class="far fa-dot-circle mainColor"></i>
                                         </div>
                                         <div class="dateItem">
-
                                             <p>Septembre 2010 - août 2015<br /> Fontenay-aux-Roses</p>
-                                        </div><!-- fin bloc date+ville+puce -->
-                                    </div>
-                                    <!-- début bloc institut+description -->
+                                        </div>
+                                    </div> <!-- End 1st bulletDate-->
+                                    <!-- Begin 1st entity + description -->
                                     <div class="etdItem">
-                                        <!-- fin itemexpepro -->
-                                        <p class="entité">TFN Propreté IDF</p>
+                                        <p class="entity">TFN Propreté IDF</p>
                                         <p>Assistante Administrative</p>
                                         <div>
                                             <ul class="grey500">
@@ -244,27 +235,25 @@
                                                     et gestion des salles de réunion.</li>
                                             </ul>
                                         </div>
-                                    </div><!-- fin bloc institut+description -->
+                                    </div><!-- End 1st entity + description -->
                                 </div>
-                            </li><!-- fin 1er puce expepro -->
+                            </li><!-- End 1st bullet proExpe -->
 
-                            <!-- début 2éme puce expepro-->
-                            <li class="listeExpePro">
-                                <div class="itemExpePro">
-                                    <div class="row puceDate">
-                                        <!-- bloc date+ville+puce-->
-                                        <div class="puce2">
-                                            <i class="fas fa-circle couleurPrincipale"></i>
+                            <!-- Begin 2nd bullet proExpe-->
+                            <li>
+                                <div class="itemProExpe">
+                                    <!-- Begin 2nd bulletDate-->
+                                    <div class="row bulletDate">
+                                        <div class="bullet2">
+                                            <i class="fas fa-circle mainColor"></i>
                                         </div>
                                         <div class="dateItem">
-
                                             <p>Septembre 2009 - septembre 2010<br /> Fontenay-aux-Roses</p>
-                                        </div><!-- fin bloc date+ville+puce -->
-                                        <!-- début bloc institut+description -->
-                                    </div>
+                                        </div>
+                                    </div><!-- End 2nd bulletDate-->
+                                    <!-- Begin 2nd entity + description -->
                                     <div class="etdItem">
-                                        <!-- fin itemexpepro -->
-                                        <p class="entité">Onet Services</p>
+                                        <p class="entity">Onet Services</p>
                                         <p>Assistante Administrative</p>
                                         <div>
                                             <ul class="grey500">
@@ -283,26 +272,24 @@
                                                     et gestion des salles de réunion.</li>
                                             </ul>
                                         </div>
-                                    </div><!-- fin bloc institut+description -->
+                                    </div><!-- End 2nd entity + description -->
                                 </div>
-                            </li><!-- fin 2ème puce expepro -->
-                            <!-- début 3éme puce expepro-->
-                            <li class="listeExpePro">
-                                <div class="itemExpePro">
-                                    <!-- bloc date+ville+puce-->
-                                    <div class="row puceDate">
-                                        <div class="puce2">
-                                            <i class="fas fa-circle couleurPrincipale"></i>
+                            </li><!-- End 2nd bullet proExpe -->
+                            <!-- Begin 3rd bullet proExpe-->
+                            <li>
+                                <div class="itemProExpe">
+                                    <!-- Begin 3rd bulletDate-->
+                                    <div class="row bulletDate">
+                                        <div class="bullet2">
+                                            <i class="fas fa-circle mainColor"></i>
                                         </div>
                                         <div class="dateItem">
-
                                             <p>Septembre 2005 - août 2009<br /> Fontenay-aux-Roses</p>
-                                        </div><!-- fin bloc date+ville+puce -->
-                                        <!-- début bloc institut+description -->
-                                    </div>
+                                        </div>
+                                    </div><!-- Begin 3rd bulletDate-->
+                                    <!-- Begin 3rd entity + description -->
                                     <div class="etdItem">
-                                        <!-- fin itemexpepro -->
-                                        <p class="entité">Onet Services</p>
+                                        <p class="entity">Onet Services</p>
                                         <p>Assistante de gestion - Responsable du bureau des badges pour la
                                             restauration</p>
                                         <div>
@@ -316,48 +303,46 @@
                                                 <li>vérifier et saisir les états journaliers et mensuels ;</li>
                                                 <li>établir les procès verbaux de facturation ;</li>
                                                 <li>établir les tableaux de bord mensuels et annuels.</li>
-
                                             </ul>
                                         </div>
-                                    </div><!-- fin bloc institut+description -->
+                                    </div><!-- End 3rd entity + description -->
                                 </div>
-                            </li><!-- fin 3ème puce expepro -->
-                        </ul><!-- fin liste des expepro -->
-                    </div><!-- fin bloc liste exp pro-->
-                </div><!-- Fin bloc expériences professionelles-->
+                            </li><!-- End 3rd bullet proExpe -->
+                        </ul>
+                    </div><!-- End list exp pro-->
+                </div><!-- End professionnal experience -->
 
-                <!-- Début bloc recommandations -->
-                <div id="recommandations">
-                    <div class="titreParcours">
+                <!-- Begin box recommendation -->
+                <div>
+                    <div class="titleCourse">
                         <div class="row">
-                            <i class="fas fa-pencil-alt couleurPrincipale"></i>
+                            <i class="fas fa-pencil-alt mainColor"></i>
                             <h3>Recommandations</h3>
                         </div>
                         <div class="line"></div>
                     </div>
-                    <!-- début bloc list recommandations -->
-                    <div class="recommandations padLR">
-                        <!-- début bloc item reco 1-->
-                        <div class="itemRecommandations medium">
-                            <p class="titreRecommandations"> Maxime Bono</p>
+                    <!-- Begin list recommendation -->
+                    <div class="recommendation padLR">
+                        <!-- Begin 1st item reco -->
+                        <div class="itemRecommendations medium">
+                            <p class="titleRecommendations"> Maxime Bono</p>
                             <p>Gérant, Bono Consulting</p>
                             <p>Téléphone : 06 00 00 00 00</p>
                             <p class="grey500">Email : name@email.com</p>
-                        </div><!-- fin bloc item reco 1-->
-                        <!-- début bloc item reco 2 -->
-                        <div class="itemRecommandations medium">
-                            <p class="titreRecommandations">Philippe Alves</p>
+                        </div><!-- End 1st item reco -->
+                        <!-- Begin 2nd item reco -->
+                        <div class="itemRecommendations medium">
+                            <p class="titleRecommendations">Philippe Alves</p>
                             <p>DSI, Oalia</p>
                             <p>Téléphone : 06 00 00 00 00</p>
                             <p class="grey500">Email : name@email.com</p>
-                        </div><!-- fin bloc item reco 2-->
-                    </div><!-- fin bloc liste recommandations-->
-                </div><!-- Fin bloc recommandations-->
+                        </div><!-- End 2nd item reco -->
+                    </div><!-- End box list recommendation-->
+                </div><!-- End box recommendation-->
 
-            </section><!-- Fin Section Parcours-->
-        </div><!-- Fin Conteneur Infos Perso + Parcours -->
-
-    </div><!-- Fin Container de la page -->
+            </section><!-- End Section course-->
+        </div><!-- End container Infos Perso + course -->
+    </div><!-- End page container -->
 
 </body>
 

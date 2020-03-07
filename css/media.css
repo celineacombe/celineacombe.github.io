@@ -8,54 +8,51 @@ large = 992px;
 x-large = 1200px;
 *************************/
 
-/* Large */
+/* Large
+-------------------------------------------------- */
 
 @media only screen and (max-width: 992px) {
     html {
         font-size: 60%
     }
-    #parcours {
+    #course {
         display: flex;
         flex-direction: column;
         margin: initial;
         padding: initial;
-        /* width: 70%; */
     }
     ul.grey500>li {
         padding-right: 6%;
     }
     .dateItem {
-        /* display: flex;
-        flex-wrap: nowrap; */
         text-decoration: solid;
-        width: 95%;
+        width: 91%;
         padding-left: 9%;
         text-align: left;
     }
-    .puceDate {
+    .bulletDate {
         margin-bottom: 2%;
     }
     .etdItem {
         padding-left: 9%;
-        width: 95%;
+        width: 91%;
     }
-    /* Formation */
-    .itemFormation {
+    /* Education */
+    .itemEducation {
         display: flex;
         flex-direction: column;
-        /* border-bottom: #CE93D8 solid 1px; */
     }
     /* Professional Experience */
-    .itemExpePro {
+    .itemProExpe {
         display: flex;
         flex-direction: column;
         padding-top: 1%;
         padding-bottom: 3%;
-        /* border-bottom: #CE93D8 solid 1px; */
     }
 }
 
-/* Small and medium */
+/* Small and medium
+-------------------------------------------------- */
 
 @media only screen and (max-width: 768px) {
     /* For all page
@@ -71,38 +68,38 @@ x-large = 1200px;
         margin-top: initial;
         padding-top: initial;
     }
-    .titreInfosPerso {
+    .titleInfosPerso {
         margin: 0;
     }
     /* Header
     -------------------------------------------------- */
-    #photoTitre {
+    #pictureTitle {
         display: flex;
         flex-direction: column;
         margin: auto;
     }
-    #photo {
+    #picture {
         width: 100%;
         background-color: #fafafa;
     }
-    .photoIdentité {
+    .myPicture {
         border: solid 3px #CE93D8;
     }
-    #titreMétier {
+    #titleJob {
         width: 100%;
         background-color: #fafafa;
         /* text-align: center; */
     }
-    #titre {
+    #title {
         padding: 0;
         margin: 0;
         text-align: center;
     }
-    .prénom {
+    .firstName {
         color: #CE93D8;
         font-weight: 300;
     }
-    #métier {
+    #job {
         margin-top: initial;
         margin-bottom: initial;
         text-align: center;
@@ -111,33 +108,33 @@ x-large = 1200px;
     /* Part left Personnal Informations
 -------------------------------------------------- */
     /* Hobbies */
-    .iconeLoisirs {
+    .iconHobbies {
         height: max-content;
         padding-top: 2%;
         padding-bottom: 2%;
         margin: initial;
     }
     .cercle {
-        padding: 3%;
+        padding: 2%;
         font-size: 3rem;
     }
-    #persoParcours {
+    #persoCourse {
         display: flex;
         flex-direction: column;
     }
     #infosPerso {
         width: 100%;
     }
-    /* Part right course
+    /* Part right Course
 -------------------------------------------------- */
-    #parcours {
+    #course {
         display: flex;
         flex-direction: column;
         margin: initial;
         padding: initial;
         width: 100%;
     }
-    .titreParcours {
+    .titleCourse {
         padding-top: 6%;
         padding-left: 0;
         padding-right: 0%;
@@ -154,11 +151,11 @@ x-large = 1200px;
         padding-left: 0;
         text-align: left;
     }
-    .puce1, .puce2 {
+    .bullet1, .bullet2 {
         text-align: left;
         margin: auto;
     }
-    .puceDate {
+    .bulletDate {
         width: 85%;
         margin-bottom: 2%;
         padding-left: 6%
@@ -174,30 +171,29 @@ x-large = 1200px;
         padding-left: 6%;
     }
     div.etdItem p {
-        /* text-align: center; */
         padding-right: 6%;
     }
-    /* Formation */
-    .itemFormation {
+    /* Education */
+    .itemEducation {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
     /* Professional Experience */
-    .itemExpePro {
+    .itemProExpe {
         display: flex;
         flex-direction: column;
         padding-top: 1%;
         padding-bottom: 3%;
     }
     /* Recommendations */
-    .recommandations {
+    .recommendation {
         display: flex;
         flex-direction: column;
         margin: initial;
         padding: 0 0 3% 0;
     }
-    .itemRecommandations {
+    .itemRecommendations {
         width: 88%;
         padding: 0;
         padding: 0 6% 0 6%;
