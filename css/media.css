@@ -57,7 +57,6 @@ x-large = 1200px;
 @media only screen and (max-width: 768px) {
     /* For all page
     -------------------------------------------------- */
-    
     html {
         font-size: 60%
     }
@@ -117,6 +116,10 @@ x-large = 1200px;
     .cercle {
         padding: 2%;
         font-size: 3rem;
+        width: fit-content;
+        /* Fix display bug for iconhobbies in Chrome */
+        height: fit-content;
+        /* Fix display bug for iconhobbies in Chrome */
     }
     #persoCourse {
         display: flex;

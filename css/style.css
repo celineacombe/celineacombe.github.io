@@ -266,9 +266,3 @@ div.dateItem p {
 .titleRecommendations {
     text-transform: uppercase;
 }
-
-/* Fix display bug for iconhobbies in Chrome */
-
-.fas {
-    -webkit-font-smoothing: none;
-}
