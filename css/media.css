@@ -60,6 +60,7 @@ x-large = 1200px;
 @media only screen and (max-width: 768px) {
     /* For all page
     -------------------------------------------------- */
+    
     html {
         font-size: 60%
     }
@@ -149,16 +150,9 @@ x-large = 1200px;
     ul.grey500>li {
         padding: 0 6% 0 0;
     }
-    /* .puce1, .puce2 {
-        visibility: hidden;
-        display: none;
-        /* width: 5%;
-        text-align: left; */
     .dateItem {
-        /* width: 100%; */
         padding-left: 0;
         text-align: left;
-        /* width: 80%; */
     }
     .puce1, .puce2 {
         text-align: left;
@@ -175,7 +169,7 @@ x-large = 1200px;
         margin-top: 2%;
     }
     .etdItem {
-        width: 95%;
+        width: 88%;
         padding-right: 6%;
         padding-left: 6%;
     }
@@ -204,7 +198,7 @@ x-large = 1200px;
         padding: 0 0 3% 0;
     }
     .itemRecommandations {
-        width: 100%;
+        width: 88%;
         padding: 0;
         padding: 0 6% 0 6%;
     }
