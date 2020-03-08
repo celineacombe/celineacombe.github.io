@@ -114,12 +114,8 @@ x-large = 1200px;
         margin: initial;
     }
     .cercle {
-        padding: 2%;
+        padding: 3%;
         font-size: 3rem;
-        width: fit-content;
-        /* Fix display bug for iconhobbies in Chrome */
-        height: fit-content;
-        /* Fix display bug for iconhobbies in Chrome */
     }
     #persoCourse {
         display: flex;

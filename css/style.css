@@ -150,10 +150,14 @@ h4 {
 .cercle {
     border: solid 1px #424242;
     border-radius: 50%;
-    padding: 3%;
+    padding: 5%;
     color: #424242;
     margin: auto;
     font-size: 3rem;
+    width: fit-content;
+    /* Fix display bug for iconhobbies in Chrome */
+    height: fit-content;
+    /* Fix display bug for iconhobbies in Chrome */
 }
 
 .iconHobbies {
