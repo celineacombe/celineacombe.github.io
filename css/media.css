@@ -25,17 +25,30 @@ x-large = 1200px;
         padding-right: 6%;
     }
     .dateItem {
+        display: flex;
+        flex-direction: row;
         text-decoration: solid;
         width: 91%;
-        padding-left: 9%;
+        padding-left: 0;
         text-align: left;
+    }
+    div.dateItem p {
+        width: 45%;
     }
     .bulletDate {
         margin-bottom: 2%;
+        width: 70%;
+    }
+    .bullet1, .bullet2 {
+        width: 5%;
+        margin-top: 0;
     }
     .etdItem {
         padding-left: 9%;
         width: 91%;
+    }
+    div.edtItem p {
+        width: 45%;
     }
     /* Education */
     .itemEducation {
