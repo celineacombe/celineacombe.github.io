@@ -20,6 +20,11 @@ ul {
 
 ul.grey500>li {
     padding-right: 10%;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    text-align: justify;
 }
 
 /* Margin / Padding */

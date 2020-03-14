@@ -160,7 +160,7 @@ x-large = 1200px;
         margin-right: 0;
     }
     ul.grey500>li {
-        padding: 0 6% 0 0;
+        padding: 0;
     }
     .dateItem {
         display: flex;
