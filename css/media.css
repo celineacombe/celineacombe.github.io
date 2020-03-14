@@ -13,7 +13,7 @@ x-large = 1200px;
 
 @media only screen and (max-width: 992px) {
     html {
-        font-size: 60%
+        font-size: 80%
     }
     #course {
         display: flex;
@@ -28,19 +28,19 @@ x-large = 1200px;
         display: flex;
         flex-direction: row;
         text-decoration: solid;
-        width: 91%;
+        width: 100%;
         padding-left: 0;
-        text-align: left;
+        text-align: center;
     }
     div.dateItem p {
-        width: 45%;
+        width: 50%;
     }
     .bulletDate {
         margin-bottom: 2%;
-        width: 70%;
+        width: 90%;
     }
     .bullet1, .bullet2 {
-        width: 5%;
+        width: 7%;
         margin-top: 0;
     }
     .etdItem {
@@ -49,6 +49,9 @@ x-large = 1200px;
     }
     div.edtItem p {
         width: 45%;
+    }
+    .entity {
+        margin-bottom: 0;
     }
     /* Education */
     .itemEducation {
@@ -67,11 +70,11 @@ x-large = 1200px;
 /* Small and medium
 -------------------------------------------------- */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     /* For all page
     -------------------------------------------------- */
     html {
-        font-size: 60%
+        font-size: 75%
     }
     #container {
         margin: auto;
@@ -150,7 +153,7 @@ x-large = 1200px;
         padding-top: 6%;
         padding-left: 0;
         padding-right: 0%;
-        font-size: 1.9rem;
+        font-size: 1.5rem;
     }
     .line {
         padding: 1% 0 0 0;
@@ -160,12 +163,14 @@ x-large = 1200px;
         padding: 0 6% 0 0;
     }
     .dateItem {
+        display: flex;
+        flex-direction: column;
         padding-left: 0;
         text-align: left;
     }
     .bullet1, .bullet2 {
         text-align: left;
-        margin: auto;
+        margin-top: 2%;
     }
     .bulletDate {
         width: 85%;

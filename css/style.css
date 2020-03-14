@@ -2,6 +2,7 @@
 -------------------------------------------------- */
 
 #container {
+    /* grey n°700 material design */
     color: #616161;
     font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
 }
@@ -36,14 +37,17 @@ ul.grey500>li {
 /* Colors */
 
 .grey500 {
+    /* grey n°500 material design */
     color: #9e9e9e;
 }
 
 .backgroundColor {
+    /* purple n°200 material design */
     background-color: #CE93D8;
 }
 
 .mainColor {
+    /* purple n°200 material design */
     color: #CE93D8;
 }
 
@@ -51,10 +55,12 @@ ul.grey500>li {
 
 html {
     font-size: 90%;
+    /* grey n°50 material design */
     background-color: #FAFAFA;
 }
 
 .medium {
+    /* Roboto medium */
     font-weight: 500;
 }
 
@@ -74,15 +80,18 @@ html {
 .myPicture {
     display: block;
     border-radius: 50%;
-    border: solid 3px #6A1B9A;
+    /* purple n°600 material design */
+    border: solid 3px #8E24AA;
     margin: 5% auto 5% auto;
     max-width: 80%;
 }
 
 #title {
     text-transform: uppercase;
-    color: #000;
+    /* black */
+    color: #000000;
     font-size: 4rem;
+    /* Roboto light */
     font-weight: 300;
     padding-left: 6%;
     margin-bottom: 0;
@@ -90,11 +99,13 @@ html {
 }
 
 .firstName {
+    /* Robot medium */
     font-weight: 500;
 }
 
 #titleJob {
     width: 70%;
+    /* grey n°50 material design */
     background-color: #FAFAFA;
     display: block;
     margin: auto;
@@ -102,6 +113,7 @@ html {
 
 #job {
     font-size: 2rem;
+    /* Roboto medium */
     font-weight: 500;
     padding-left: 6%;
     margin-top: 0;
@@ -109,6 +121,7 @@ html {
 }
 
 .s-line {
+    /* purple n°200 material design */
     border-bottom: solid 2px #CE93D8;
 }
 
@@ -125,6 +138,7 @@ html {
 .titleInfosPerso {
     text-transform: uppercase;
     text-align: center;
+    /* grey n°800 material design */
     background-color: #424242;
     font-size: 2rem;
 }
@@ -148,9 +162,11 @@ h4 {
 /* Hobbies */
 
 .cercle {
+    /* grey n°800 material design */
     border: solid 1px #424242;
     border-radius: 50%;
     padding: 5%;
+    /* grey n°800 material design */
     color: #424242;
     margin: auto;
     font-size: 3rem;
@@ -167,6 +183,7 @@ h4 {
     padding-top: 0;
     padding-bottom: 6%;
     font-size: 3rem;
+    /* grey n°800 material design */
     color: #424242;
 }
 
@@ -178,6 +195,7 @@ h4 {
 #course {
     width: 70%;
     font-size: 1.2rem;
+    /* grey n°50 material design */
     background-color: #FAFAFA;
 }
 
@@ -185,6 +203,7 @@ h4 {
     text-transform: uppercase;
     color: #000000;
     font-size: 2rem;
+    /* Roboto bold */
     font-weight: 700;
     padding-left: 6%;
     padding-right: 6%;
@@ -197,6 +216,7 @@ h4 {
 }
 
 .line {
+    /* purple n°200 material design */
     border-top: solid #CE93D8 2px;
     margin-top: -2%;
 }
@@ -215,8 +235,10 @@ div.dateItem p {
 .entity {
     text-transform: uppercase;
     font-size: 1.5rem;
+    /* Roboto medium */
     font-weight: 500;
     margin-top: 0%;
+    margin-bottom: 2%;
 }
 
 .bulletDate {
@@ -265,6 +287,11 @@ div.dateItem p {
 .itemRecommendations {
     width: 50%;
     padding-left: 3%;
+}
+
+div.itemRecommendations p {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .titleRecommendations {
